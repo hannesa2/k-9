@@ -27,10 +27,10 @@ class SettingsExporter(
     private val folderRepositoryManager: FolderRepositoryManager
 ) {
     @Throws(SettingsImportExportException::class)
-    fun exportToUri(includeGlobals: Boolean, accountUuids: Set<String>, uri: Uri) {
+    fun exportToUri(includeGlobals: Boolean, accountUuids: Set<String>, uri: Uri, withPassword: Boolean) {
         try {
             contentResolver.openOutputStream(uri)!!.use { outputStream ->
-                exportPreferences(outputStream, includeGlobals, accountUuids)
+                exportPreferences(outputStream, includeGlobals, accountUuids, withPassword)
             }
         } catch (e: Exception) {
             throw SettingsImportExportException(e)
@@ -38,7 +38,7 @@ class SettingsExporter(
     }
 
     @Throws(SettingsImportExportException::class)
-    fun exportPreferences(outputStream: OutputStream, includeGlobals: Boolean, accountUuids: Set<String>) {
+    fun exportPreferences(outputStream: OutputStream, includeGlobals: Boolean, accountUuids: Set<String>, withPassword: Boolean) {
         try {
             val serializer = Xml.newSerializer()
             serializer.setOutput(outputStream, "UTF-8")
@@ -66,7 +66,7 @@ class SettingsExporter(
             serializer.startTag(null, ACCOUNTS_ELEMENT)
             for (accountUuid in accountUuids) {
                 preferences.getAccount(accountUuid)?.let { account ->
-                    writeAccount(serializer, account, prefs)
+                    writeAccount(serializer, account, prefs, withPassword)
                 }
             }
             serializer.endTag(null, ACCOUNTS_ELEMENT)
@@ -101,7 +101,7 @@ class SettingsExporter(
         }
     }
 
-    private fun writeAccount(serializer: XmlSerializer, account: Account, prefs: Map<String, Any>) {
+    private fun writeAccount(serializer: XmlSerializer, account: Account, prefs: Map<String, Any>, withPassword: Boolean) {
         val identities = mutableSetOf<Int>()
         val accountUuid = account.uuid
 
@@ -127,9 +127,9 @@ class SettingsExporter(
         writeElement(serializer, CONNECTION_SECURITY_ELEMENT, incoming.connectionSecurity.name)
         writeElement(serializer, AUTHENTICATION_TYPE_ELEMENT, incoming.authenticationType.name)
         writeElement(serializer, USERNAME_ELEMENT, incoming.username)
+        if (withPassword)
+            writeElement(serializer, PASSWORD_ELEMENT, incoming.password)
         writeElement(serializer, CLIENT_CERTIFICATE_ALIAS_ELEMENT, incoming.clientCertificateAlias)
-        // XXX For now we don't export the password
-        // writeElement(serializer, PASSWORD_ELEMENT, incoming.password);
 
         var extras = incoming.extra
         if (!extras.isNullOrEmpty()) {
@@ -153,9 +153,9 @@ class SettingsExporter(
         writeElement(serializer, CONNECTION_SECURITY_ELEMENT, outgoing.connectionSecurity.name)
         writeElement(serializer, AUTHENTICATION_TYPE_ELEMENT, outgoing.authenticationType.name)
         writeElement(serializer, USERNAME_ELEMENT, outgoing.username)
+        if (withPassword)
+            writeElement(serializer, PASSWORD_ELEMENT, outgoing.password)
         writeElement(serializer, CLIENT_CERTIFICATE_ALIAS_ELEMENT, outgoing.clientCertificateAlias)
-        // XXX For now we don't export the password
-        // writeElement(serializer, PASSWORD_ELEMENT, outgoing.password);
 
         extras = outgoing.extra
         if (!extras.isNullOrEmpty()) {

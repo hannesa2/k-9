@@ -2,15 +2,32 @@ name: Android CI
 on: [pull_request]
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
+  Build-Test:
+    runs-on: macOS-latest
+    strategy:
+      matrix:
+        api: [21, 28]
     steps:
-    - uses: actions/checkout@v1
-    - name: set up JDK 1.8
-      uses: actions/setup-java@v1
-      with:
-        java-version: 1.8
-    - name: Build with Gradle
-      run: ./gradlew assembleDebug testDebugUnitTest ktlintCheck
+      - uses: actions/checkout@v2.1.1
+      - name: set up JDK 1.8
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+      - name: Build with Gradle
+        run: ./gradlew assembleDebug testDebugUnitTest
+      - name: Android monkeyrunner ${{ matrix.api }}
+        uses: ReactiveCircus/android-emulator-runner@v2.8.0
+        with:
+          api-level: ${{ matrix.api }}
+          disable-animations: true
+          script: ./gradlew installDebug && adb shell monkey -p com.fsck.k9.debug -v 200
+  ktlintCheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: set up JDK 1.8
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+      - name: Build with Gradle
+        run: ./gradlew ktlintCheck

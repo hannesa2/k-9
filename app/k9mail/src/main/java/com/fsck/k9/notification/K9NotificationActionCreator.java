@@ -10,7 +10,7 @@ import android.content.Intent;
 import com.fsck.k9.Account;
 import com.fsck.k9.DI;
 import com.fsck.k9.K9;
-import com.fsck.k9.R;
+import com.fsck.l10.R;
 import com.fsck.k9.activity.MessageList;
 import com.fsck.k9.controller.MessageReference;
 import com.fsck.k9.ui.notification.DeleteConfirmationActivity;

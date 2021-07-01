@@ -42,11 +42,12 @@ android {
     compileSdkVersion buildConfig.compileSdk
 
     defaultConfig {
-        applicationId "com.fsck.k9"
+        applicationId "com.fsck.l10"
         testApplicationId "com.fsck.k9.tests"
 
         versionCode getGitCommitCount()
         versionName getTag()
+        setProperty("archivesBaseName", "L10-" + versionName)
 
         // Keep in sync with the resource string array 'supported_languages'
         resConfigs "in", "br", "ca", "cs", "cy", "da", "de", "et", "en", "en_GB", "es", "eo", "eu", "fr", "gd", "gl",

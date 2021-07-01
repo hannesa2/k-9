@@ -1,7 +1,7 @@
 package com.fsck.k9.resources
 
 import android.content.Context
-import com.fsck.k9.R
+import com.fsck.l10.R
 import com.fsck.k9.autocrypt.AutocryptStringProvider
 
 class K9AutocryptStringProvider(private val context: Context) : AutocryptStringProvider {

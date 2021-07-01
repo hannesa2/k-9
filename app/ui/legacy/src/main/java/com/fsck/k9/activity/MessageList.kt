@@ -60,6 +60,7 @@ import com.fsck.k9.ui.permissions.PermissionUiHelper
 import com.fsck.k9.view.ViewSwitcher
 import com.fsck.k9.view.ViewSwitcher.OnSwitchCompleteListener
 import com.mikepenz.materialdrawer.util.getOptimalDrawerWidth
+import info.hannes.github.AppUpdateHelper
 import org.koin.android.ext.android.inject
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
@@ -187,6 +188,12 @@ open class MessageList :
         if (savedInstanceState == null) {
             checkAndRequestPermissions()
         }
+
+        AppUpdateHelper.checkForNewVersion(
+            this,
+            BuildConfig.GIT_REPOSITORY,
+            BuildConfig.VERSIONNAME
+        )
     }
 
     public override fun onNewIntent(intent: Intent) {

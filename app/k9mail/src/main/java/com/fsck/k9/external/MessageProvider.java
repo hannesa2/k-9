@@ -36,7 +36,7 @@ import android.os.Bundle;
 import android.provider.BaseColumns;
 
 import com.fsck.k9.Account;
-import com.fsck.k9.BuildConfig;
+import com.fsck.l10.BuildConfig;
 import com.fsck.k9.DI;
 import com.fsck.k9.Preferences;
 import com.fsck.k9.controller.MessageReference;

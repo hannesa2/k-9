@@ -42,7 +42,7 @@ android {
     compileSdkVersion buildConfig.compileSdk
 
     defaultConfig {
-        applicationId "com.fsck.k9"
+        applicationId "com.fsck.l10"
         testApplicationId "com.fsck.k9.tests"
 
         versionCode getGitCommitCount()

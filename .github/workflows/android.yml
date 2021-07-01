@@ -21,7 +21,7 @@ jobs:
         with:
           api-level: ${{ matrix.api }}
           disable-animations: true
-          script: ./gradlew installDebug && adb shell monkey -p com.fsck.k9.debug -v 200
+          script: ./gradlew installDebug && adb shell monkey -p com.fsck.l10.debug -v 200
   ktlintCheck:
     runs-on: ubuntu-latest
     steps:

@@ -370,7 +370,9 @@ class MessageListFragment :
 
         if (currentFolder.moreMessages && !localSearch.isManualSearch) {
             val folderId = currentFolder.databaseId
-            messagingController.loadMoreMessages(account, folderId, null)
+            account?.let {
+                messagingController.loadMoreMessages(it, folderId, null)
+            }
         } else if (isRemoteSearch) {
             val additionalSearchResults = extraSearchResults ?: return
             if (additionalSearchResults.isEmpty()) return
@@ -629,7 +631,9 @@ class MessageListFragment :
     }
 
     private fun onExpunge(account: Account?, folderId: Long) {
-        messagingController.expunge(account, folderId)
+        account?.let {
+            messagingController.expunge(it, folderId)
+        }
     }
 
     fun onEmptyTrash() {
@@ -745,7 +749,9 @@ class MessageListFragment :
     }
 
     fun onSendPendingMessages() {
-        messagingController.sendPendingMessages(account, null)
+        account?.let {
+            messagingController.sendPendingMessages(it, null)
+        }
     }
 
     private fun listViewToAdapterPosition(position: Int): Int {
@@ -1110,25 +1116,38 @@ class MessageListFragment :
 
         for ((folderId, messagesInFolder) in folderMap) {
             val account = preferences.getAccount(messagesInFolder.first().accountUuid)
-
-            if (operation == FolderOperation.MOVE) {
-                if (showingThreadedList) {
-                    messagingController.moveMessagesInThread(account, folderId, messagesInFolder, destinationFolderId)
+            account?.let {
+                if (operation == FolderOperation.MOVE) {
+                    if (showingThreadedList) {
+                        messagingController.moveMessagesInThread(
+                            it,
+                            folderId,
+                            messagesInFolder,
+                            destinationFolderId
+                        )
+                    } else {
+                        messagingController.moveMessages(account, folderId, messagesInFolder, destinationFolderId)
+                    }
                 } else {
-                    messagingController.moveMessages(account, folderId, messagesInFolder, destinationFolderId)
-                }
-            } else {
-                if (showingThreadedList) {
-                    messagingController.copyMessagesInThread(account, folderId, messagesInFolder, destinationFolderId)
-                } else {
-                    messagingController.copyMessages(account, folderId, messagesInFolder, destinationFolderId)
+                    if (showingThreadedList) {
+                        messagingController.copyMessagesInThread(
+                            it,
+                            folderId,
+                            messagesInFolder,
+                            destinationFolderId
+                        )
+                    } else {
+                        messagingController.copyMessages(account, folderId, messagesInFolder, destinationFolderId)
+                    }
                 }
             }
         }
     }
 
     private fun onMoveToDraftsFolder(messages: List<MessageReference>) {
-        messagingController.moveToDraftsFolder(account, currentFolder!!.databaseId, messages)
+        account?.let {
+            messagingController.moveToDraftsFolder(it, currentFolder!!.databaseId, messages)
+        }
         activeMessages = null
     }
 
@@ -1147,7 +1166,9 @@ class MessageListFragment :
                 markAllAsRead()
             }
             R.id.dialog_confirm_empty_trash -> {
-                messagingController.emptyTrash(account, null)
+                account?.let {
+                    messagingController.emptyTrash(it, null)
+                }
             }
         }
     }
@@ -1166,8 +1187,10 @@ class MessageListFragment :
     private fun checkMail() {
         if (isSingleAccountMode && isSingleFolderMode) {
             val folderId = currentFolder!!.databaseId
-            messagingController.synchronizeMailbox(account, folderId, activityListener)
-            messagingController.sendPendingMessages(account, activityListener)
+            account?.let {
+                messagingController.synchronizeMailbox(it, folderId, activityListener)
+                messagingController.sendPendingMessages(it, activityListener)
+            }
         } else if (allAccounts) {
             messagingController.checkMail(null, true, true, activityListener)
         } else {

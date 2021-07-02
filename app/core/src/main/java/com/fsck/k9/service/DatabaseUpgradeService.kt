@@ -1,17 +1,20 @@
 package com.fsck.k9.service
 
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.app.PendingIntent
 import android.app.Service
 import android.content.Context
 import com.fsck.k9.Preferences.Companion.getPreferences
 import com.fsck.k9.DI.get
 import com.fsck.k9.K9.setDatabasesUpToDate
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
-import com.fsck.k9.power.TracingPowerManager.TracingWakeLock
 import android.content.Intent
+import android.graphics.Color
+import android.os.Build
 import android.os.IBinder
-import android.os.PowerManager
+import androidx.core.app.NotificationCompat
 import timber.log.Timber
-import com.fsck.k9.power.TracingPowerManager
 import com.fsck.k9.mailstore.LocalStoreProvider
 import com.fsck.k9.mailstore.UnavailableStorageException
 import java.lang.Exception
@@ -32,7 +35,6 @@ class DatabaseUpgradeService : Service() {
      */
     private val running = AtomicBoolean(false)
     private var localBroadcastManager: LocalBroadcastManager? = null
-    private var wakeLock: TracingWakeLock? = null
     override fun onBind(intent: Intent): IBinder? {
         // unused
         return null
@@ -40,6 +42,32 @@ class DatabaseUpgradeService : Service() {
 
     override fun onCreate() {
         localBroadcastManager = LocalBroadcastManager.getInstance(this)
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+
+            val channel = NotificationChannel(
+                NOTIFICATION_CHANNEL_ID,
+                NOTIFICATION_CHANNEL_DESC,
+                NotificationManager.IMPORTANCE_LOW
+            )
+            channel.description = "Sensor"
+            channel.enableLights(true)
+            channel.lightColor = Color.RED
+            notificationManager.createNotificationChannel(channel)
+
+            val stopSelf = Intent(this, DatabaseUpgradeService::class.java)
+            val stopPendingIntent = PendingIntent.getService(this, 0, stopSelf, PendingIntent.FLAG_CANCEL_CURRENT)
+            val action =
+                NotificationCompat.Action(android.R.drawable.stat_sys_download, "Stop Service", stopPendingIntent)
+
+            val notification = NotificationCompat.Builder(this, NOTIFICATION_CHANNEL_ID)
+                .setContentTitle("Database upgrade")
+                .setContentText("Database upgrade")
+                .addAction(action)
+
+            startForeground(ID_DETERMINATE_SERVICE, notification.build())
+        }
     }
 
     override fun onStartCommand(intent: Intent, flags: Int, startId: Int): Int {
@@ -47,27 +75,9 @@ class DatabaseUpgradeService : Service() {
         if (success) {
             // The service wasn't running yet.
             Timber.i("DatabaseUpgradeService started")
-            acquireWakelock()
-            startUpgradeInBackground()
+            startUpgrade()
         }
         return START_STICKY
-    }
-
-    /**
-     * Acquire a partial wake lock so the CPU won't go to sleep when the screen is turned off.
-     */
-    private fun acquireWakelock() {
-        val pm = TracingPowerManager.getPowerManager(this)
-        wakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, WAKELOCK_TAG)
-        wakeLock?.setReferenceCounted(false)
-        wakeLock?.acquire(WAKELOCK_TIMEOUT)
-    }
-
-    /**
-     * Release the wake lock.
-     */
-    private fun releaseWakelock() {
-        wakeLock!!.release()
     }
 
     /**
@@ -76,20 +86,12 @@ class DatabaseUpgradeService : Service() {
     private fun stopService() {
         stopSelf()
         Timber.i("DatabaseUpgradeService stopped")
-        releaseWakelock()
         running.set(false)
     }
 
-    /**
-     * Start a background thread for upgrading the databases.
-     */
-    private fun startUpgradeInBackground() {
-        object : Thread("DatabaseUpgradeService") {
-            override fun run() {
-                upgradeDatabases()
-                stopService()
-            }
-        }.start()
+    private fun startUpgrade() {
+        upgradeDatabases()
+        stopService()
     }
 
     /**
@@ -129,6 +131,11 @@ class DatabaseUpgradeService : Service() {
     }
 
     companion object {
+
+        private val ID_DETERMINATE_SERVICE = 12344
+        const val NOTIFICATION_CHANNEL_ID = "DatabaseUpgrade channel"
+        const val NOTIFICATION_CHANNEL_DESC = "DatabaseUpgrade channel description"
+
         /**
          * Broadcast intent reporting the current progress of the database upgrade.
          *
@@ -170,8 +177,6 @@ class DatabaseUpgradeService : Service() {
          * Action used to start this service.
          */
         private const val ACTION_START_SERVICE = "com.fsck.k9.service.DatabaseUpgradeService.startService"
-        private const val WAKELOCK_TAG = "DatabaseUpgradeService"
-        private const val WAKELOCK_TIMEOUT = (10 * 60 * 1000).toLong() // 10 minutes
 
         /**
          * Start [DatabaseUpgradeService].
@@ -185,6 +190,11 @@ class DatabaseUpgradeService : Service() {
             i.setClass(context, DatabaseUpgradeService::class.java)
             i.action = ACTION_START_SERVICE
             context.startService(i)
+
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                context.startForegroundService(i)
+            } else
+                context.startService(i)
         }
     }
 }

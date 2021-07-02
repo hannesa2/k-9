@@ -248,6 +248,6 @@ class WearNotifications extends BaseNotifications {
     }
 
     MessagingController createMessagingController() {
-        return MessagingController.getInstance(context);
+        return MessagingController.getInstance();
     }
 }

@@ -18,7 +18,7 @@ import timber.log.Timber;
 public class TracingPowerManager implements com.fsck.k9.mail.power.PowerManager {
     private final static boolean TRACE = false;
     public static AtomicInteger wakeLockId = new AtomicInteger(0);
-    PowerManager pm = null;
+    PowerManager pm;
     private static TracingPowerManager tracingPowerManager;
     private Timer timer = null;
 

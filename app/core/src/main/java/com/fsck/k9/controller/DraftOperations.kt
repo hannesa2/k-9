@@ -144,7 +144,7 @@ internal class DraftOperations(
             localMessage.uid = messageServerId
             localFolder.changeUid(localMessage)
 
-            for (listener in messagingController.listeners) {
+            for (listener in messagingController.messagesListeners) {
                 listener.messageUidChanged(account, localFolder.databaseId, oldUid, localMessage.uid)
             }
         }

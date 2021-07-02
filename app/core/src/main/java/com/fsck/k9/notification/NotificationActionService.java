@@ -138,7 +138,7 @@ public class NotificationActionService extends Service {
             return START_NOT_STICKY;
         }
 
-        MessagingController controller = MessagingController.getInstance(getApplication());
+        MessagingController controller = MessagingController.getInstance();
 
         String action = intent.getAction();
         if (ACTION_MARK_AS_READ.equals(action)) {

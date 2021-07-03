@@ -3,12 +3,12 @@
   <!--=== App-specific strings =============================================================-->
   <!--This should make it easier for forks to change the branding-->
   <!--Used in AndroidManifest.xml-->
-  <string name="app_name">K-9 Mail</string>
-  <string name="shortcuts_title">K-9 Účty</string>
-  <string name="unread_widget_label">K-9 Neprečítaná</string>
+  <string name="app_name">L-10 Mail</string>
+  <string name="shortcuts_title">L-10 Účty</string>
+  <string name="unread_widget_label">L-10 Neprečítaná</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">The K-9 Dog Walkers</string>
-  <string name="app_copyright_fmt">Autorské práva 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Portions Copyright 2006-<xliff:g>%s</xliff:g> the Android Open Source Project.</string>
+  <string name="app_authors">The L-10 Dog Walkers</string>
+  <string name="app_copyright_fmt">Autorské práva 2008-<xliff:g>%s</xliff:g> The L-10 Dog Walkers. Portions Copyright 2006-<xliff:g>%s</xliff:g> the Android Open Source Project.</string>
   <string name="source_code">Zdrojový kód</string>
   <string name="app_license">Licencované pod licenciou Apache 2.0.</string>
   <string name="about_project_title">Projekt s otvoreným zdrojovým kódom</string>
@@ -22,10 +22,10 @@
   <string name="changelog_loading_error">Nepodarilo sa načítať históriu zmien</string>
   <string name="changelog_version_title">Verzia %s</string>
   <!--Welcome message-->
-  <string name="welcome_message_title">Vitajte v K-9 Mail</string>
+  <string name="welcome_message_title">Vitajte v L-10 Mail</string>
   <string name="accounts_welcome"><![CDATA[
 <p>
-K-9 Mail je výkonný a slobodný e-mailový klient pre Android.
+L-10 Mail je výkonný a slobodný e-mailový klient pre Android.
 </p><p>
 Medzi jeho vylepšené funkcie patria:
 </p>
@@ -46,7 +46,7 @@ Medzi jeho vylepšené funkcie patria:
 <li>…a ďalšie</li>
 </ul>
 <p>
-Prosím, vezmite na vedomie, že K-9 Mail nepodporuje väčšinu bezplatných účtov služby Hotmail a ako mnoho ďalších e-mailových klientov
+Prosím, vezmite na vedomie, že L-10 Mail nepodporuje väčšinu bezplatných účtov služby Hotmail a ako mnoho ďalších e-mailových klientov
 vykazuje isté zvláštnosti pri komunikácii s Microsoft Exchange.
 </p><p>
 Prosím, nahlasujte prípadné chyby, prispievajte novými funkciami a pýtajte sa na
@@ -54,9 +54,9 @@ Prosím, nahlasujte prípadné chyby, prispievajte novými funkciami a pýtajte 
 </p>
 ]]></string>
   <!--Default signature-->
-  <string name="default_signature">-- \nOdoslané z môjho Android zariadenia prostredníctvom K-9 Mail. Prosím, ospravedlňte moju stručnosť.</string>
+  <string name="default_signature">-- \nOdoslané z môjho Android zariadenia prostredníctvom L-10 Mail. Prosím, ospravedlňte moju stručnosť.</string>
   <!--General strings that include the app name-->
-  <string name="account_delete_dlg_instructions_fmt">Účet \"<xliff:g id="account">%s</xliff:g>\" bude odstránený z K-9 Mail.</string>
+  <string name="account_delete_dlg_instructions_fmt">Účet \"<xliff:g id="account">%s</xliff:g>\" bude odstránený z L-10 Mail.</string>
   <!--=== General strings ==================================================================-->
   <string name="authors">Autori</string>
   <string name="app_revision">Informácie o revízii</string>
@@ -64,7 +64,7 @@ Prosím, nahlasujte prípadné chyby, prispievajte novými funkciami a pýtajte 
   <string name="read_messages_desc">Umožňuje tejto aplikácii čítať vaše e-maily.</string>
   <string name="delete_messages_label">Mazať správy</string>
   <string name="delete_messages_desc">Umožňuje tejto aplikácii mazať vaše e-maily.</string>
-  <string name="about_title">O aplikácii K-9 mail </string>
+  <string name="about_title">O aplikácii L-10 mail </string>
   <string name="accounts_title">Účty</string>
   <string name="folders_title">Priečinky</string>
   <string name="advanced">Pokročilé</string>
@@ -268,7 +268,7 @@ Prosím, nahlasujte prípadné chyby, prispievajte novými funkciami a pýtajte 
   <string name="global_settings_confirm_menu_mark_all_read">Označiť všetky správy ako prečítané</string>
   <string name="global_settings_confirm_action_delete_notif">Vymazať (z oznámení)</string>
   <string name="global_settings_privacy_hide_useragent">Skryť e-mail klienta</string>
-  <string name="global_settings_privacy_hide_useragent_detail">Odstrániť používateľského agenta K-9 z hlavičiek správ</string>
+  <string name="global_settings_privacy_hide_useragent_detail">Odstrániť používateľského agenta L-10 z hlavičiek správ</string>
   <string name="global_settings_privacy_hide_timezone">Skryť časové pásmo</string>
   <string name="global_settings_privacy_hide_timezone_detail">Použiť UTC ako časové pásmo v hlavičkách správ</string>
   <string name="global_settings_notification_hide_subject_title">Skryť predmet v oznámení</string>
@@ -939,7 +939,7 @@ Prosím, nahlasujte prípadné chyby, prispievajte novými funkciami a pýtajte 
   <string name="unsigned_text_divider_label">Nepodpísaný text</string>
   <string name="apg_deprecated_title">Varovanie o konci podpory APG</string>
   <string name="apg_deprecated_1">Aplikácia APG už nie je udržiavaná!</string>
-  <string name="apg_deprecated_2">Podpora APG bola z K-9 Mail odstránená.</string>
+  <string name="apg_deprecated_2">Podpora APG bola z L-10 Mail odstránená.</string>
   <string name="apg_deprecated_bullet_1">Vývoj je zastavený od roku 2014</string>
   <string name="apg_deprecated_bullet_2">Obsahuje bezpečnostné problémy</string>
   <string name="apg_learn_more">Viac informácií nájdete v správe <a href="https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html">na github.io</a>.</string>
@@ -947,7 +947,7 @@ Prosím, nahlasujte prípadné chyby, prispievajte novými funkciami a pýtajte 
   <string name="apg">APG</string>
   <string name="crypto_no_provider_title">Táto správa je zašifrovaná</string>
   <string name="crypto_no_provider_message">Táto správa bola zašifrovaná pomocou OpenPGP\nJe potrebné nakonfigurovať kompatibilnú OpenPGP aplikáciu.</string>
-  <string name="mail_list_widget_text">Zoznam správ K-9</string>
+  <string name="mail_list_widget_text">Zoznam správ L-10</string>
   <string name="mail_list_widget_loading">Načítavajú sa správy…</string>
   <string name="fetching_folders_failed">Výpis zoznamu priečinkov zlyhal</string>
   <string name="openpgp_enabled_error_back">Späť</string>

@@ -3,12 +3,12 @@
   <!--=== App-specific strings =============================================================-->
   <!--This should make it easier for forks to change the branding-->
   <!--Used in AndroidManifest.xml-->
-  <string name="app_name">K-9 Mail</string>
-  <string name="shortcuts_title">Llogari K-9</string>
-  <string name="unread_widget_label">Të palexuar K-9</string>
+  <string name="app_name">L-10 Mail</string>
+  <string name="shortcuts_title">Llogari L-10</string>
+  <string name="unread_widget_label">Të palexuar L-10</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">The K-9 Dog Walkers</string>
-  <string name="app_copyright_fmt">Të drejta kopjimi 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Të drejta kopjimi Mbi Pjesë 2006-<xliff:g>%s</xliff:g> the Android Open Source Project.</string>
+  <string name="app_authors">The L-10 Dog Walkers</string>
+  <string name="app_copyright_fmt">Të drejta kopjimi 2008-<xliff:g>%s</xliff:g> The L-10 Dog Walkers. Të drejta kopjimi Mbi Pjesë 2006-<xliff:g>%s</xliff:g> the Android Open Source Project.</string>
   <string name="source_code">Kod burim</string>
   <string name="app_license">Apache License, Version 2.0</string>
   <string name="about_project_title">Projekt Me Burim të Hapët</string>
@@ -22,10 +22,10 @@
   <string name="changelog_loading_error">S’u ngarkua dot regjistri i ndryshimeve.</string>
   <string name="changelog_version_title">Version %s</string>
   <!--Welcome message-->
-  <string name="welcome_message_title">Mirë se vini te K-9 Mail</string>
+  <string name="welcome_message_title">Mirë se vini te L-10 Mail</string>
   <string name="accounts_welcome"><![CDATA[
 <p>
-K-9 Mail është një klient email-esh i lirë, për Android.
+L-10 Mail është një klient email-esh i lirë, për Android.
 </p><p>
 Në veçoritë e tij të përmirësuara përfshihen:
 </p>
@@ -46,7 +46,7 @@ Në veçoritë e tij të përmirësuara përfshihen:
   <li>…dhe të tjera</li>
 </ul>
 <p>
-Ju lutemi, mbani parasysh që K-9 nuk mbulon shumicën e llogarive falas Hotmail dhe, ashtu si mjaft klientë email-i, ka disa yçkla
+Ju lutemi, mbani parasysh që L-10 nuk mbulon shumicën e llogarive falas Hotmail dhe, ashtu si mjaft klientë email-i, ka disa yçkla
 kur komunikon me një shërbyes Microsoft Exchange.
 </p><p>
 Ju lutemi, parashtrim njoftimesh për të meta, kontribute për veçori të reaj dhe pyetjet bëjini te
@@ -54,9 +54,9 @@ Ju lutemi, parashtrim njoftimesh për të meta, kontribute për veçori të reaj
 </p>
     ]]></string>
   <!--Default signature-->
-  <string name="default_signature">-- \nDërguar nga pajisja ime Android, me K-9 Mail. Ju lutem, më ndjeni për shkurtësinë.</string>
+  <string name="default_signature">-- \nDërguar nga pajisja ime Android, me L-10 Mail. Ju lutem, më ndjeni për shkurtësinë.</string>
   <!--General strings that include the app name-->
-  <string name="account_delete_dlg_instructions_fmt">Llogaria \"<xliff:g id="account">%s</xliff:g>\" do të hiqet që nga K-9 Mail.</string>
+  <string name="account_delete_dlg_instructions_fmt">Llogaria \"<xliff:g id="account">%s</xliff:g>\" do të hiqet që nga L-10 Mail.</string>
   <!--=== General strings ==================================================================-->
   <string name="authors">Autorë</string>
   <string name="app_revision">Të dhëna Rishikimi</string>
@@ -64,7 +64,7 @@ Ju lutemi, parashtrim njoftimesh për të meta, kontribute për veçori të reaj
   <string name="read_messages_desc">I lejon këtij aplikacioni të lexojë email-et tuaj.</string>
   <string name="delete_messages_label">Fshiji Email-et</string>
   <string name="delete_messages_desc">I lejon këtij aplikacioni të fshijë email-et tuaj.</string>
-  <string name="about_title">Mbi K-9 Mail</string>
+  <string name="about_title">Mbi L-10 Mail</string>
   <string name="accounts_title">Llogari</string>
   <string name="folders_title">Dosje</string>
   <string name="advanced">Të mëtejshme</string>
@@ -265,7 +265,7 @@ Ju lutemi, parashtrim njoftimesh për të meta, kontribute për veçori të reaj
   <string name="global_settings_confirm_menu_mark_all_read">Shënoji krejt mesazhet si të lexuar</string>
   <string name="global_settings_confirm_action_delete_notif">Fshije (që prej njoftimit)</string>
   <string name="global_settings_privacy_hide_useragent">Fshihe klientin e postës</string>
-  <string name="global_settings_privacy_hide_useragent_detail">Hiqeni K-9 User-Agent nga kryet e email-it</string>
+  <string name="global_settings_privacy_hide_useragent_detail">Hiqeni L-10 User-Agent nga kryet e email-it</string>
   <string name="global_settings_privacy_hide_timezone">Fshihe zonën kohore</string>
   <string name="global_settings_privacy_hide_timezone_detail">Përdorni UTC, në vend se zonën kohore vendore, te krye email-esh dhe krye përgjigjesh</string>
   <string name="global_settings_notification_hide_subject_title">Fshihe subjektin gjatë njoftimesh</string>
@@ -983,7 +983,7 @@ Ju lutemi, parashtrim njoftimesh për të meta, kontribute për veçori të reaj
   <string name="unsigned_text_divider_label">Tekst i Panënshkruar</string>
   <string name="apg_deprecated_title">Sinjalizim APG-je të Nxjerrë Nga Përdorimi</string>
   <string name="apg_deprecated_1">Projekti APG nuk mirëmbahet më!</string>
-  <string name="apg_deprecated_2">Për këtë shkak, është hequr mbulimi i APG-së nga K-9 Mail.</string>
+  <string name="apg_deprecated_2">Për këtë shkak, është hequr mbulimi i APG-së nga L-10 Mail.</string>
   <string name="apg_deprecated_bullet_1">Zhvillimi ndali në fillimet e 2014-s</string>
   <string name="apg_deprecated_bullet_2">Përmban probleme sigurie të pandrequra</string>
   <string name="apg_learn_more">Mund të <a href="https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html">klikoni këtu</a> për të mësuar më tepër.</string>
@@ -992,7 +992,7 @@ Ju lutemi, parashtrim njoftimesh për të meta, kontribute për veçori të reaj
   <string name="crypto_no_provider_title">Ky email është i fshehtëzuar</string>
   <string name="crypto_no_provider_message">Ky email është fshehtëzuar me OpenPGP.\nQë ta lexoni, lypset të instaloni dhe formësoni një aplikacion të përputhshëm me OpenPGP-në.</string>
   <string name="crypto_no_provider_button">Kaloni te Rregullimet</string>
-  <string name="mail_list_widget_text">Listë K-9 Mesazhesh</string>
+  <string name="mail_list_widget_text">Listë L-10 Mesazhesh</string>
   <string name="mail_list_widget_loading">Po ngarkohen mesazhe…</string>
   <string name="fetching_folders_failed">Dështoi sjellja e listës së dosjeve</string>
   <string name="error_recipient_crypto_retrieve">Gabim në pasjen e gjendjes së marrësit nga furnizuesi i mekanizmit OpenPGP!</string>
@@ -1015,7 +1015,7 @@ Ju lutemi, parashtrim njoftimesh për të meta, kontribute për veçori të reaj
   <string name="general_settings_title">Rregullime të përgjithshme</string>
   <string name="dialog_openkeychain_info_title">S\’ka aplikacion OpenPGP të instaluar</string>
   <string name="dialog_openkeychain_info_install">Instaloje</string>
-  <string name="dialog_openkeychain_info_text">K-9 Mail lyp OpenKeychain për fshehtëzime skaj-më-skaj.</string>
+  <string name="dialog_openkeychain_info_text">L-10 Mail lyp OpenKeychain për fshehtëzime skaj-më-skaj.</string>
   <string name="encrypted_subject">Mesazh i Fshehtëzuar</string>
   <string name="account_settings_crypto_encrypt_subject">Fshehtëzo subjekte mesazhesh</string>
   <string name="account_settings_crypto_encrypt_subject_subtitle">Mund të mos mbulohet nga disa marrës</string>

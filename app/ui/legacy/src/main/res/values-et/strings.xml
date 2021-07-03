@@ -3,21 +3,21 @@
   <!--=== App-specific strings =============================================================-->
   <!--This should make it easier for forks to change the branding-->
   <!--Used in AndroidManifest.xml-->
-  <string name="app_name">K-9 Mail</string>
-  <string name="shortcuts_title">K-9 Kontod</string>
-  <string name="unread_widget_label">K-9 Lugemata</string>
+  <string name="app_name">L-10 Mail</string>
+  <string name="shortcuts_title">L-10 Kontod</string>
+  <string name="unread_widget_label">L-10 Lugemata</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">K-9 Autorid</string>
-  <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Portions Copyright 2006-<xliff:g>%s</xliff:g> the Android Open Source Project.</string>
+  <string name="app_authors">L-10 Autorid</string>
+  <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> The L-10 Dog Walkers. Portions Copyright 2006-<xliff:g>%s</xliff:g> the Android Open Source Project.</string>
   <string name="app_license">Apache litsents, versioon 2.0</string>
   <string name="about_libraries">Teegid</string>
   <string name="license">Litsents</string>
   <!--Welcome message-->
-  <string name="welcome_message_title">Tere tulemast K-9 Maili</string>
+  <string name="welcome_message_title">Tere tulemast L-10 Maili</string>
   <!--Default signature-->
-  <string name="default_signature">-- \nSaadetud Androidi seadmelt K-9 meiliga. Vabanda, et nii lühdalt.</string>
+  <string name="default_signature">-- \nSaadetud Androidi seadmelt L-10 meiliga. Vabanda, et nii lühdalt.</string>
   <!--General strings that include the app name-->
-  <string name="account_delete_dlg_instructions_fmt">Konto \"<xliff:g id="account">%s</xliff:g>\" eemaldatakse K-9 Mailist.</string>
+  <string name="account_delete_dlg_instructions_fmt">Konto \"<xliff:g id="account">%s</xliff:g>\" eemaldatakse L-10 Mailist.</string>
   <!--=== General strings ==================================================================-->
   <string name="authors">Autorid</string>
   <string name="app_revision">Parandusteave</string>
@@ -25,7 +25,7 @@
   <string name="read_messages_desc">Lubab sellel rakendusel lugeda sinu e-kirju.</string>
   <string name="delete_messages_label">Kustuta e-kirjad</string>
   <string name="delete_messages_desc">Lubab sellel rakendusel kustutada sinu e-kirju.</string>
-  <string name="about_title">Programmist K-9 Mail</string>
+  <string name="about_title">Programmist L-10 Mail</string>
   <string name="accounts_title">Kontod</string>
   <string name="folders_title">Kaustad</string>
   <string name="advanced">Täpsemalt</string>
@@ -225,7 +225,7 @@
   <string name="global_settings_confirm_menu_mark_all_read">Märgi kõik sõnumid loetuks</string>
   <string name="global_settings_confirm_action_delete_notif">Kustuta (teadetest)</string>
   <string name="global_settings_privacy_hide_useragent">Peida meiliklient</string>
-  <string name="global_settings_privacy_hide_useragent_detail">Eemalda K-9 User-Agent meili päistest</string>
+  <string name="global_settings_privacy_hide_useragent_detail">Eemalda L-10 User-Agent meili päistest</string>
   <string name="global_settings_privacy_hide_timezone">Peida ajavöönd</string>
   <string name="global_settings_privacy_hide_timezone_detail">Kasuta UTCd kohaliku ajavööndi asemel meili päistes ja vastuse päises</string>
   <string name="global_settings_notification_hide_subject_title">Peida teadetes teema</string>

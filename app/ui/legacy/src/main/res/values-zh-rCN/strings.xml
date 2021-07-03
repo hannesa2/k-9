@@ -3,12 +3,12 @@
   <!--=== App-specific strings =============================================================-->
   <!--This should make it easier for forks to change the branding-->
   <!--Used in AndroidManifest.xml-->
-  <string name="app_name">K-9 Mail</string>
-  <string name="shortcuts_title">K-9 账户</string>
-  <string name="unread_widget_label">K-9 未读</string>
+  <string name="app_name">L-10 Mail</string>
+  <string name="shortcuts_title">L-10 账户</string>
+  <string name="unread_widget_label">L-10 未读</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">The K-9 Dog Walkers</string>
-  <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Portions Copyright 2006-<xliff:g>%s</xliff:g> the Android Open Source Project.</string>
+  <string name="app_authors">L-10 遛狗人</string>
+  <string name="app_copyright_fmt">L-10 遛狗人 版权所有 2008-<xliff:g>%s</xliff:g> 。 部分版权归属 Android 开源项目 2006-<xliff:g>%s</xliff:g> 。</string>
   <string name="source_code">源代码</string>
   <string name="app_license">Apache许可证，2.0版</string>
   <string name="about_project_title">开源项目</string>
@@ -22,10 +22,10 @@
   <string name="changelog_loading_error">无法加载修改记录</string>
   <string name="changelog_version_title">版本 %s</string>
   <!--Welcome message-->
-  <string name="welcome_message_title">欢迎使用 K-9 Mail</string>
+  <string name="welcome_message_title">欢迎使用 L-10 Mail</string>
   <string name="accounts_welcome"><![CDATA[
 <p>
-K-9 Mail 是 Android 上一款功能强大的自由 email 客户端。
+L-10 Mail 是 Android 上一款功能强大的自由 email 客户端。
 </p><p>
 其改进的功能包括：
 </p>
@@ -46,7 +46,7 @@ K-9 Mail 是 Android 上一款功能强大的自由 email 客户端。
   <li>…以及更多</li>
 </ul>
 <p>
-请注意 K-9 不支持大部分免费 Hotmail 账户，而且和其他大部分邮件客户端一样，
+请注意 L-10 不支持大部分免费 Hotmail 账户，而且和其他大部分邮件客户端一样，
 在使用 Microsoft Exchange 协议时会有一些问题。
 </p><p>
 请到下述网址提交问题报告，新功能建议或者提问：
@@ -54,9 +54,9 @@ K-9 Mail 是 Android 上一款功能强大的自由 email 客户端。
 </p>
     ]]></string>
   <!--Default signature-->
-  <string name="default_signature">-- \n使用 K-9 Mail 发送自我的Android设备。</string>
+  <string name="default_signature">-- \n使用 L-10 Mail 发送自我的Android设备。</string>
   <!--General strings that include the app name-->
-  <string name="account_delete_dlg_instructions_fmt">账户“<xliff:g id="account">%s</xliff:g>”将从 K-9 Mail 中删除。</string>
+  <string name="account_delete_dlg_instructions_fmt">即将从 L-10 Mail 中移除账户“<xliff:g id="account">%s</xliff:g>”。</string>
   <!--=== General strings ==================================================================-->
   <string name="authors">作者</string>
   <string name="app_revision">修订信息</string>
@@ -64,7 +64,7 @@ K-9 Mail 是 Android 上一款功能强大的自由 email 客户端。
   <string name="read_messages_desc">允许该程序读取邮件。</string>
   <string name="delete_messages_label">删除邮件</string>
   <string name="delete_messages_desc">允许该程序删除邮件。</string>
-  <string name="about_title">关于 K-9 Mail</string>
+  <string name="about_title">关于 L-10 Mail</string>
   <string name="accounts_title">账户</string>
   <string name="folders_title">文件夹</string>
   <string name="advanced">高级</string>
@@ -262,7 +262,7 @@ K-9 Mail 是 Android 上一款功能强大的自由 email 客户端。
   <string name="global_settings_confirm_menu_mark_all_read">全部标为已读</string>
   <string name="global_settings_confirm_action_delete_notif">删除(来自通知)</string>
   <string name="global_settings_privacy_hide_useragent">隐藏邮件客户端</string>
-  <string name="global_settings_privacy_hide_useragent_detail">从邮件头中移除 K-9 的 User-Agent</string>
+  <string name="global_settings_privacy_hide_useragent_detail">从邮件头中移除 L-10 的 User-Agent</string>
   <string name="global_settings_privacy_hide_timezone">隐藏时区</string>
   <string name="global_settings_privacy_hide_timezone_detail">在邮件头及恢复头中使用UTC时间而不是本地时间</string>
   <string name="global_settings_notification_hide_subject_title">在通知中隐藏主题</string>
@@ -975,7 +975,7 @@ K-9 Mail 是 Android 上一款功能强大的自由 email 客户端。
   <string name="unsigned_text_divider_label">未签名文本</string>
   <string name="apg_deprecated_title">APG 弃用警告</string>
   <string name="apg_deprecated_1">APG 已停止维护！</string>
-  <string name="apg_deprecated_2">因此，K-9 Mail 移除了对 APG 的支持。</string>
+  <string name="apg_deprecated_2">因此，L-10 Mail 移除了对 APG 的支持。</string>
   <string name="apg_deprecated_bullet_1">开发在 2014 年初停止了</string>
   <string name="apg_deprecated_bullet_2">包含未修复的安全漏洞</string>
   <string name="apg_learn_more">你可以 <a href="https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html">点击这里</a> 查看更多信息。</string>
@@ -984,7 +984,7 @@ K-9 Mail 是 Android 上一款功能强大的自由 email 客户端。
   <string name="crypto_no_provider_title">邮件已被加密</string>
   <string name="crypto_no_provider_message">这份邮件使用 OpenPGP 进行了加密。\n请安装并配置一个兼容 OpenPGP 的应用来查看邮件。</string>
   <string name="crypto_no_provider_button">前往设置</string>
-  <string name="mail_list_widget_text">K-9消息列表</string>
+  <string name="mail_list_widget_text">L-10消息列表</string>
   <string name="mail_list_widget_loading">正在加载邮件……</string>
   <string name="fetching_folders_failed">获取文件夹列表失败</string>
   <string name="error_recipient_crypto_retrieve">检索支持 OpenPGP 的接收者状态错误！</string>
@@ -1007,7 +1007,7 @@ K-9 Mail 是 Android 上一款功能强大的自由 email 客户端。
   <string name="general_settings_title">常规设置</string>
   <string name="dialog_openkeychain_info_title">未安装 OpenPGP 应用</string>
   <string name="dialog_openkeychain_info_install">安装</string>
-  <string name="dialog_openkeychain_info_text">K-9 Mail 需要 OpenKeychain 提供端到端加密。</string>
+  <string name="dialog_openkeychain_info_text">L-10 Mail 需要 OpenKeychain 提供端到端加密。</string>
   <string name="encrypted_subject">加密过的消息。</string>
   <string name="account_settings_crypto_encrypt_subject">加密消息主题</string>
   <string name="account_settings_crypto_encrypt_subject_subtitle">某些收件人可能不支持加密</string>

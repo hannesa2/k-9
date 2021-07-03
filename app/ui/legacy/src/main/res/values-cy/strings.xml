@@ -3,12 +3,12 @@
   <!--=== App-specific strings =============================================================-->
   <!--This should make it easier for forks to change the branding-->
   <!--Used in AndroidManifest.xml-->
-  <string name="app_name">K-9 Mail</string>
-  <string name="shortcuts_title">Cyfrifon K-9</string>
-  <string name="unread_widget_label">K-9 Heb eu Darllen</string>
+  <string name="app_name">L-10 Mail</string>
+  <string name="shortcuts_title">Cyfrifon L-10</string>
+  <string name="unread_widget_label">L-10 Heb eu Darllen</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">The K-9 Dog Walkers</string>
-  <string name="app_copyright_fmt">Hawlfraint 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Hawlfraint Cyfrannau 2006-<xliff:g>%s</xliff:g> Android Open Source Project.</string>
+  <string name="app_authors">The L-10 Dog Walkers</string>
+  <string name="app_copyright_fmt">Hawlfraint 2008-<xliff:g>%s</xliff:g> The L-10 Dog Walkers. Hawlfraint Cyfrannau 2006-<xliff:g>%s</xliff:g> Android Open Source Project.</string>
   <string name="source_code">Cod ffynhonnell</string>
   <string name="app_license">Trwydded Apache, Fersiwn 2.0</string>
   <string name="about_project_title">Prosiect Cod Agored</string>
@@ -17,10 +17,10 @@
   <string name="about_libraries">Llyfrgelloedd</string>
   <string name="license">Trwydded</string>
   <!--Welcome message-->
-  <string name="welcome_message_title">Croeso i K-9 Mail</string>
+  <string name="welcome_message_title">Croeso i L-10 Mail</string>
   <string name="accounts_welcome"><![CDATA[
 <p>
-Mae K-9 Mail yn gleient e-bost pwerus ar gyfer Android.
+Mae L-10 Mail yn gleient e-bost pwerus ar gyfer Android.
 </p><p>
 Mae ei nodweddion gwell yn cynnwys:
 </p><ul>
@@ -40,7 +40,7 @@ Mae ei nodweddion gwell yn cynnwys:
   <li>…a mwy</li>
 </ul>
 <p>
-Noder nad yw K-9 yn cyd-fynd a mwyafrif cyfrifon am ddim Hotmail ac, fel nifer o gleientiaid e-bost, mae rhai pethau\'n gweithio\'n od wrth drafod â Microsoft Exchange.
+Noder nad yw L-10 yn cyd-fynd a mwyafrif cyfrifon am ddim Hotmail ac, fel nifer o gleientiaid e-bost, mae rhai pethau\'n gweithio\'n od wrth drafod â Microsoft Exchange.
 
 Mae\'r ap yn dibynnu ar Android ei hun ar gyfer peth cynnwys. Yn anffodus, nid yw fersiynau swyddogol o Android yn cefnogi\'r Gymraeg ac felly fe weli rywfaint o Saesneg yn yr ap, e.e. \"5 minutes ago\" yn lle \"5 munud yn ôl\", \"Dec\" yn lle \"Rhag\".
 </p><p>
@@ -49,9 +49,9 @@ Plîs rho wybod am unrhyw wallau, syniadau am nodweddion newydd, neu ofyn cwesti
 </p>
     ]]></string>
   <!--Default signature-->
-  <string name="default_signature">-- \nAnfonwyd gyda K-9 Mail ar Android\n - yr ap ebost cyntaf yn y Gymraeg.</string>
+  <string name="default_signature">-- \nAnfonwyd gyda L-10 Mail ar Android\n - yr ap ebost cyntaf yn y Gymraeg.</string>
   <!--General strings that include the app name-->
-  <string name="account_delete_dlg_instructions_fmt">Caiff y cyfrif \"<xliff:g id="account">%s</xliff:g>\" ei dynnu o K-9 Mail.</string>
+  <string name="account_delete_dlg_instructions_fmt">Caiff y cyfrif \"<xliff:g id="account">%s</xliff:g>\" ei dynnu o L-10 Mail.</string>
   <!--=== General strings ==================================================================-->
   <string name="authors">Awduron</string>
   <string name="app_revision">Gwybodaeth am Ddiwygiad</string>
@@ -59,7 +59,7 @@ Plîs rho wybod am unrhyw wallau, syniadau am nodweddion newydd, neu ofyn cwesti
   <string name="read_messages_desc">Galluogi\'r ap hwn i ddarllen dy e-bost.</string>
   <string name="delete_messages_label">Dileu E-bost</string>
   <string name="delete_messages_desc">Galluogi\'r ap hwn i ddileu dy negeseuon e-bost.</string>
-  <string name="about_title">Ynghylch K-9 Mail</string>
+  <string name="about_title">Ynghylch L-10 Mail</string>
   <string name="accounts_title">Cyfrifon</string>
   <string name="folders_title">Ffolderi</string>
   <string name="advanced">Uwch</string>
@@ -264,7 +264,7 @@ Plîs rho wybod am unrhyw wallau, syniadau am nodweddion newydd, neu ofyn cwesti
   <string name="global_settings_confirm_menu_mark_all_read">Nodi pob neges fel ei wedi ei darllen</string>
   <string name="global_settings_confirm_action_delete_notif">Dileu (o hysbysiad)</string>
   <string name="global_settings_privacy_hide_useragent">Cuddio cleient e-bost</string>
-  <string name="global_settings_privacy_hide_useragent_detail">Cuddio\'r Cleient K-9 o benynnau negeseuon</string>
+  <string name="global_settings_privacy_hide_useragent_detail">Cuddio\'r Cleient L-10 o benynnau negeseuon</string>
   <string name="global_settings_privacy_hide_timezone">Cuddio cylchfa amser</string>
   <string name="global_settings_privacy_hide_timezone_detail">Defnyddio amser UTC yn hytrach na chylchfa amser lleol (e.e. GMT, BST) ym mhenynnau negeseuon ac atebion</string>
   <string name="global_settings_notification_hide_subject_title">Cuddio\'r pwnc mewn hysbysiadau</string>
@@ -990,7 +990,7 @@ Plîs rho wybod am unrhyw wallau, syniadau am nodweddion newydd, neu ofyn cwesti
   <string name="unsigned_text_divider_label">Testun heb ei lofnodi</string>
   <string name="apg_deprecated_title">Rhybudd Anghymeradwyaeth APG</string>
   <string name="apg_deprecated_1">Dyw APG ddim yn cael ei cadw a chynnal bellach!</string>
-  <string name="apg_deprecated_2">Oherwydd hyn, mae cymorth ar gyfer APG wedi ei dynnu o K-9 Mail.</string>
+  <string name="apg_deprecated_2">Oherwydd hyn, mae cymorth ar gyfer APG wedi ei dynnu o L-10 Mail.</string>
   <string name="apg_deprecated_bullet_1">Daeth datblygiad i ben yn gynnar yn 2014.</string>
   <string name="apg_deprecated_bullet_2">Yn cynnwys materion diogelwch heb eu datrys</string>
   <string name="apg_learn_more">Gelli di <a href="https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html">glicio yma </a>i ddysgu mwy.</string>
@@ -999,7 +999,7 @@ Plîs rho wybod am unrhyw wallau, syniadau am nodweddion newydd, neu ofyn cwesti
   <string name="crypto_no_provider_title">Mae\'r neges e-bost hon wedi ei amgryptio.</string>
   <string name="crypto_no_provider_message">Mae\'r neges e-bost hon wedi ei amgryptio gydag OpenPGP.\nI\'w darllen, rhaid gosod a ffurfweddu ap OpenPGP sy\'n cydweddu.</string>
   <string name="crypto_no_provider_button">Mynd i Osodiadau</string>
-  <string name="mail_list_widget_text">Rhestr Negeseuon K-9</string>
+  <string name="mail_list_widget_text">Rhestr Negeseuon L-10</string>
   <string name="mail_list_widget_loading">Yn llwytho negeseuon…</string>
   <string name="fetching_folders_failed">Methwyd nôl rhestr ffolderi</string>
   <string name="error_recipient_crypto_retrieve">Bu gwall wrth gael statws y derbyniwr o\'r darparwr OpenPGP!</string>
@@ -1022,7 +1022,7 @@ Plîs rho wybod am unrhyw wallau, syniadau am nodweddion newydd, neu ofyn cwesti
   <string name="general_settings_title">Gosodiadau cyffredinol</string>
   <string name="dialog_openkeychain_info_title">Nid oes ap OpenPGP wedi\'i osod</string>
   <string name="dialog_openkeychain_info_install">Gosod</string>
-  <string name="dialog_openkeychain_info_text">Mae ar K-9 Mail angen OpenKeychain ar gyfer amgryptiad pen-i-ben.</string>
+  <string name="dialog_openkeychain_info_text">Mae ar L-10 Mail angen OpenKeychain ar gyfer amgryptiad pen-i-ben.</string>
   <string name="encrypted_subject">Neges wedi\'i Hamgryptio</string>
   <string name="account_settings_crypto_encrypt_subject">Amgryptio pynciau negeseuon</string>
   <string name="account_settings_crypto_encrypt_subject_subtitle">Mae\'n bosib na fydd rhai derbynwyr yn medru ei brosesu</string>

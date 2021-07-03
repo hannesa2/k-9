@@ -3,12 +3,12 @@
   <!--=== App-specific strings =============================================================-->
   <!--This should make it easier for forks to change the branding-->
   <!--Used in AndroidManifest.xml-->
-  <string name="app_name">K-9 Mail</string>
-  <string name="shortcuts_title">K-9-tilit</string>
-  <string name="unread_widget_label">K-9-lukematon</string>
+  <string name="app_name">L-10 Mail</string>
+  <string name="shortcuts_title">L-10-tilit</string>
+  <string name="unread_widget_label">L-10-lukematon</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">The K-9 Dog Walkers</string>
-  <string name="app_copyright_fmt">Tekijänoikeudet 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Osittaiset tekijänoikeudet -<xliff:g>%s</xliff:g> Androidin avoimen lähdekoodin hanke.</string>
+  <string name="app_authors">The L-10 Dog Walkers</string>
+  <string name="app_copyright_fmt">Tekijänoikeudet 2008-<xliff:g>%s</xliff:g> The L-10 Dog Walkers. Osittaiset tekijänoikeudet -<xliff:g>%s</xliff:g> Androidin avoimen lähdekoodin hanke.</string>
   <string name="source_code">Lähdekoodi</string>
   <string name="app_license">Apache-lisenssi, versio 2.0</string>
   <string name="about_project_title">Avoimen lähdekoodin projekti</string>
@@ -21,10 +21,10 @@
   <string name="changelog_loading_error">Muutoslokia ei voitu ladata.</string>
   <string name="changelog_version_title">Versio %s</string>
   <!--Welcome message-->
-  <string name="welcome_message_title">Tervetuloa K-9 Mailiin</string>
+  <string name="welcome_message_title">Tervetuloa L-10 Mailiin</string>
   <string name="accounts_welcome"><![CDATA[
 <p>
-K-9 Mail on monipuolinen ilmainen sähköpostisovellus Androidille.
+L-10 Mail on monipuolinen ilmainen sähköpostisovellus Androidille.
 </p><p>
 Sen ominaisuuksiin kuuluu muun muassa:
 </p>
@@ -45,16 +45,16 @@ Sen ominaisuuksiin kuuluu muun muassa:
   <li>…ja paljon muuta</li>
 </ul>
 <p>
-Huomioithan, että K-9 ei tue useimpia ilmaisia Hotmail-tilejä, ja kuten monet muut sovellukset, saattaa kärsiä pienistä ongelmista Microsoft Exchange -ympäristössä.
+Huomioithan, että L-10 ei tue useimpia ilmaisia Hotmail-tilejä, ja kuten monet muut sovellukset, saattaa kärsiä pienistä ongelmista Microsoft Exchange -ympäristössä.
 </p><p>
 Ilmoita virheistä, ota osaa sovelluskehitykseen ja esitä kysymyksiä osoitteessa
 <a href="https://github.com/k9mail/k-9/">https://github.com/k9mail/k-9/</a>.
 </p>
     ]]></string>
   <!--Default signature-->
-  <string name="default_signature">-- \nLähetetty Android-laitteestani K-9 Maililla. Pahoittelut vähäsanaisuudestani.</string>
+  <string name="default_signature">-- \nLähetetty Android-laitteestani L-10 Maililla. Pahoittelut vähäsanaisuudestani.</string>
   <!--General strings that include the app name-->
-  <string name="account_delete_dlg_instructions_fmt">Tili \"<xliff:g id="account">%s</xliff:g>\" poistetaan K-9 Mailista.</string>
+  <string name="account_delete_dlg_instructions_fmt">Tili \"<xliff:g id="account">%s</xliff:g>\" poistetaan L-10 Mailista.</string>
   <!--=== General strings ==================================================================-->
   <string name="authors">Tekijät</string>
   <string name="app_revision">Versiotiedot</string>
@@ -62,7 +62,7 @@ Ilmoita virheistä, ota osaa sovelluskehitykseen ja esitä kysymyksiä osoittees
   <string name="read_messages_desc">Antaa sovellukselle luvan lukea sähköpostisi.</string>
   <string name="delete_messages_label">Poista sähköpostit</string>
   <string name="delete_messages_desc">Antaa sovellukselle luvan poistaa sähköposteja.</string>
-  <string name="about_title">Tietoja K-9 Mailista</string>
+  <string name="about_title">Tietoja L-10 Mailista</string>
   <string name="accounts_title">Tilit</string>
   <string name="folders_title">Kansiot</string>
   <string name="advanced">Lisäasetukset</string>
@@ -262,7 +262,7 @@ Ilmoita virheistä, ota osaa sovelluskehitykseen ja esitä kysymyksiä osoittees
   <string name="global_settings_confirm_menu_mark_all_read">Merkitse kaikki viestit luetuiksi</string>
   <string name="global_settings_confirm_action_delete_notif">Poista (ilmoituksessa)</string>
   <string name="global_settings_privacy_hide_useragent">Piilota sähköpostisovellus</string>
-  <string name="global_settings_privacy_hide_useragent_detail">Poista K-9-tunnistetiedot viestin otsaketiedoista</string>
+  <string name="global_settings_privacy_hide_useragent_detail">Poista L-10-tunnistetiedot viestin otsaketiedoista</string>
   <string name="global_settings_privacy_hide_timezone">Piilota aikavyöhyke</string>
   <string name="global_settings_privacy_hide_timezone_detail">Käytä UTC-aikaa paikallisen aikavyöhykkeen sijaan sähköpostin otsakkeissa</string>
   <string name="global_settings_notification_hide_subject_title">Piilota aihe ilmoituksissa</string>
@@ -980,7 +980,7 @@ Ilmoita virheistä, ota osaa sovelluskehitykseen ja esitä kysymyksiä osoittees
   <string name="unsigned_text_divider_label">Allekirjoittamaton teksti</string>
   <string name="apg_deprecated_title">Varoitus APG:n vanhentamisesta</string>
   <string name="apg_deprecated_1">APG:tä ei enää ylläpidetä!</string>
-  <string name="apg_deprecated_2">Tämän vuoksi APG on poistettu K-9 Mailista.</string>
+  <string name="apg_deprecated_2">Tämän vuoksi APG on poistettu L-10 Mailista.</string>
   <string name="apg_deprecated_bullet_1">Kehitys loppui alkuvuodesta 2014.</string>
   <string name="apg_deprecated_bullet_2">Sisältää korjaamattomia tietoturvaongelmia</string>
   <string name="apg_learn_more">Lisätietoja saat <a href="https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html">napsauttamalla tästä</a>.</string>
@@ -989,7 +989,7 @@ Ilmoita virheistä, ota osaa sovelluskehitykseen ja esitä kysymyksiä osoittees
   <string name="crypto_no_provider_title">Tämä sähköpostiviesti on salattu</string>
   <string name="crypto_no_provider_message">Tämä viesti on salattu OpenPGP:llä.\nLukeaksesi viestin sinun tulee asentaa ja määrittää yhteensopiva OpenPGP-sovellus.</string>
   <string name="crypto_no_provider_button">Siirry asetuksiin</string>
-  <string name="mail_list_widget_text">K-9-viestiluettelo</string>
+  <string name="mail_list_widget_text">L-10-viestiluettelo</string>
   <string name="mail_list_widget_loading">Ladataan viestejä…</string>
   <string name="fetching_folders_failed">Kansioluettelon noutaminen epäonnistui</string>
   <string name="error_recipient_crypto_retrieve">Vastaanottajan tilan hakeminen OpenPGP-tarjoajalta epäonnistui!</string>
@@ -1012,7 +1012,7 @@ Ilmoita virheistä, ota osaa sovelluskehitykseen ja esitä kysymyksiä osoittees
   <string name="general_settings_title">Yleiset asetukset</string>
   <string name="dialog_openkeychain_info_title">OpenPGP-sovellusta ei ole asennettu</string>
   <string name="dialog_openkeychain_info_install">Asenna</string>
-  <string name="dialog_openkeychain_info_text">K-9 Mail vaatii OpenKeychainin päästä päähän -salausta varten.</string>
+  <string name="dialog_openkeychain_info_text">L-10 Mail vaatii OpenKeychainin päästä päähän -salausta varten.</string>
   <string name="encrypted_subject">Salattu viesti</string>
   <string name="account_settings_crypto_encrypt_subject">Salaa viestien aiheet</string>
   <string name="account_settings_crypto_encrypt_subject_subtitle">Ei välttämättä tuettu kaikkien vastaanottajien osalta</string>

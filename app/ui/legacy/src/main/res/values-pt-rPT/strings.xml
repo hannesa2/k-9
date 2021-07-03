@@ -3,20 +3,20 @@
   <!--=== App-specific strings =============================================================-->
   <!--This should make it easier for forks to change the branding-->
   <!--Used in AndroidManifest.xml-->
-  <string name="app_name">K-9 Mail</string>
-  <string name="shortcuts_title">Contas K-9</string>
-  <string name="unread_widget_label">K-9 Não lido</string>
+  <string name="app_name">L-10 Mail</string>
+  <string name="shortcuts_title">Contas L-10</string>
+  <string name="unread_widget_label">L-10 Não lido</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">The K-9 Dog Walkers</string>
-  <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Partes protegidas por Copyright 2006-<xliff:g>%s</xliff:g> the Android Open Source Project.</string>
+  <string name="app_authors">The L-10 Dog Walkers</string>
+  <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> The L-10 Dog Walkers. Partes protegidas por Copyright 2006-<xliff:g>%s</xliff:g> the Android Open Source Project.</string>
   <string name="app_license">Licença Apache, versão 2.0.</string>
   <string name="about_libraries">Bibliotecas</string>
   <string name="license">Licença</string>
   <!--Welcome message-->
-  <string name="welcome_message_title">Bem-vindo ao K-9 Mail</string>
+  <string name="welcome_message_title">Bem-vindo ao L-10 Mail</string>
   <string name="accounts_welcome"><![CDATA[
 <p>
-O K-9 Mail é um poderoso cliente de email grátis para o Android.
+O L-10 Mail é um poderoso cliente de email grátis para o Android.
 </p><p>
 As suas funcionalidades melhoradas incluem:
 </p>
@@ -37,7 +37,7 @@ As suas funcionalidades melhoradas incluem:
 <li>…e mais</li>
 </ul>
 <p>
-Por favor note que o K-9 não suporta a maioria das contas gratuitas do Hotmail e, como muitos clientes de email 
+Por favor note que o L-10 não suporta a maioria das contas gratuitas do Hotmail e, como muitos clientes de email
 tem alguns problemas ao comunicar com o Microsoft Exchange.
 </p><p>
 Por favor envie relatórios de falhas, contribua com novas funcionalidades e coloque as suas dúvidas em
@@ -45,9 +45,9 @@ Por favor envie relatórios de falhas, contribua com novas funcionalidades e col
 </p>
 ]]></string>
   <!--Default signature-->
-  <string name="default_signature">-- \nEnviado a partir do meu dispositivo Android com o K-9 Mail. Peço desculpa pela brevidade.</string>
+  <string name="default_signature">-- \nEnviado a partir do meu dispositivo Android com o L-10 Mail. Peço desculpa pela brevidade.</string>
   <!--General strings that include the app name-->
-  <string name="account_delete_dlg_instructions_fmt">A conta \"<xliff:g id="account">%s</xliff:g>\" será removida do K-9 Mail.</string>
+  <string name="account_delete_dlg_instructions_fmt">A conta \"<xliff:g id="account">%s</xliff:g>\" será removida do L-10 Mail.</string>
   <!--=== General strings ==================================================================-->
   <string name="authors">Autores</string>
   <string name="app_revision">Informação da revisão</string>
@@ -55,7 +55,7 @@ Por favor envie relatórios de falhas, contribua com novas funcionalidades e col
   <string name="read_messages_desc">Permite que esta aplicação leia os seus emails.</string>
   <string name="delete_messages_label">Eliminar emails</string>
   <string name="delete_messages_desc">Permite que esta aplicação elimine os seus emails.</string>
-  <string name="about_title">Sobre o K-9 Mail</string>
+  <string name="about_title">Sobre o L-10 Mail</string>
   <string name="accounts_title">Contas</string>
   <string name="folders_title">Pastas</string>
   <string name="advanced">Avançado</string>
@@ -255,7 +255,7 @@ Por favor envie relatórios de falhas, contribua com novas funcionalidades e col
   <string name="global_settings_confirm_menu_mark_all_read">Marcar todas as mensagens como lidas</string>
   <string name="global_settings_confirm_action_delete_notif">Eliminar (a partir da notificação)</string>
   <string name="global_settings_privacy_hide_useragent">Ocultar cliente de email</string>
-  <string name="global_settings_privacy_hide_useragent_detail">Remover o \"User-Agent\" do K-9 dos cabeçalhos dos emails</string>
+  <string name="global_settings_privacy_hide_useragent_detail">Remover o \"User-Agent\" do L-10 dos cabeçalhos dos emails</string>
   <string name="global_settings_privacy_hide_timezone">Ocultar fuso horário</string>
   <string name="global_settings_privacy_hide_timezone_detail">Usar UTC em vez do fuso horário local nos cabeçalhos dos emails e no cabeçalho de resposta</string>
   <string name="global_settings_notification_hide_subject_title">Ocultar assunto nas notificações</string>
@@ -971,7 +971,7 @@ Por favor envie relatórios de falhas, contribua com novas funcionalidades e col
   <string name="unsigned_text_divider_label">Texto não assinado</string>
   <string name="apg_deprecated_title">Aviso de descontinuação do APG</string>
   <string name="apg_deprecated_1">O APG já não é mantido!</string>
-  <string name="apg_deprecated_2">Devido a isto, o suporte ao APG foi removido do K-9 Mail.</string>
+  <string name="apg_deprecated_2">Devido a isto, o suporte ao APG foi removido do L-10 Mail.</string>
   <string name="apg_deprecated_bullet_1">O desenvolvimento terminou em princípios de 2014</string>
   <string name="apg_deprecated_bullet_2">Contém falhas de segurança não corrigidas</string>
   <string name="apg_learn_more">Pode <a href="https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html">clicar aqui</a> para saber mais.</string>
@@ -980,7 +980,7 @@ Por favor envie relatórios de falhas, contribua com novas funcionalidades e col
   <string name="crypto_no_provider_title">Este email está encriptado</string>
   <string name="crypto_no_provider_message">Este email foi encriptado com OpenPGP.\nPara o ler, necessita de instalar e configurar uma aplicação OpenPGP compatível.</string>
   <string name="crypto_no_provider_button">Ir para as configurações</string>
-  <string name="mail_list_widget_text">K-9 Lista de mensagens</string>
+  <string name="mail_list_widget_text">L-10 Lista de mensagens</string>
   <string name="mail_list_widget_loading">A carregar mensagens…</string>
   <string name="fetching_folders_failed">A obtenção da lista de pastas falhou</string>
   <string name="error_recipient_crypto_retrieve">Erro ao obter o estado do destinatário do fornecedor OpenPGP!</string>
@@ -1003,7 +1003,7 @@ Por favor envie relatórios de falhas, contribua com novas funcionalidades e col
   <string name="general_settings_title">Configurações gerais</string>
   <string name="dialog_openkeychain_info_title">Nenhuma aplicação OpenPGP instalada</string>
   <string name="dialog_openkeychain_info_install">instalar</string>
-  <string name="dialog_openkeychain_info_text">O K-9 Mail necessita do OpenKeychain para encriptação ponta-a-ponta.</string>
+  <string name="dialog_openkeychain_info_text">O L-10 Mail necessita do OpenKeychain para encriptação ponta-a-ponta.</string>
   <string name="encrypted_subject">Mensagem encriptada</string>
   <string name="account_settings_crypto_encrypt_subject">Encriptar assuntos das mensagens</string>
   <string name="account_settings_crypto_encrypt_subject_subtitle">Pode não ser suportado por alguns destinatários</string>

@@ -3,12 +3,12 @@
   <!--=== App-specific strings =============================================================-->
   <!--This should make it easier for forks to change the branding-->
   <!--Used in AndroidManifest.xml-->
-  <string name="app_name">K-9 Mail</string>
-  <string name="shortcuts_title">Λογαριασμοί K-9</string>
-  <string name="unread_widget_label">Μη αναγνωσμένα K-9</string>
+  <string name="app_name">L-10 Mail</string>
+  <string name="shortcuts_title">Λογαριασμοί L-10</string>
+  <string name="unread_widget_label">Μη αναγνωσμένα L-10</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">The K-9 Dog Walkers</string>
-  <string name="app_copyright_fmt">Πνευματικά δικαιώματα 2008-<xliff:g>%s</xliff:g> από The K-9 Dog Walkers. Τμηματικά πνευματικά δικαιώματα 2006-<xliff:g>%s</xliff:g> από το Android Open Source Project.</string>
+  <string name="app_authors">The L-10 Dog Walkers</string>
+  <string name="app_copyright_fmt">Πνευματικά δικαιώματα 2008-<xliff:g>%s</xliff:g> από The L-10 Dog Walkers. Τμηματικά πνευματικά δικαιώματα 2006-<xliff:g>%s</xliff:g> από το Android Open Source Project.</string>
   <string name="source_code">Πηγαίος κώδικας</string>
   <string name="app_license">Άδεια χρήσης Apache, έκδοση 2.0.</string>
   <string name="about_project_title">Έργο Ανοιχτού Κώδικα</string>
@@ -22,10 +22,10 @@
   <string name="changelog_loading_error">Δεν ήταν δυνατή η φόρτωση του καταλόγου αλλαγών</string>
   <string name="changelog_version_title">Έκδοση %s</string>
   <!--Welcome message-->
-  <string name="welcome_message_title">Καλώς ορίσατε στο K-9 Mail</string>
+  <string name="welcome_message_title">Καλώς ορίσατε στο L-10 Mail</string>
   <string name="accounts_welcome"><![CDATA[
 <p>
-Το K-9 Mail είναι μία ισχυρή δωρεάν εφαρμογή ηλεκτρονικού ταχυδρομείου για το Android.
+Το L-10 Mail είναι μία ισχυρή δωρεάν εφαρμογή ηλεκτρονικού ταχυδρομείου για το Android.
 </p><p>
 Τα βελτιωμένα χαρακτηριστικά του περιλαμβάνουν:
 </p>
@@ -46,7 +46,7 @@
   <li>…και άλλα</li>
 </ul>
 <p>
-Να σημειωθεί ότι το K-9 δεν υποστηρίζει τους περισσότερους δωρεάν λογαριασμούς Hotmail και,
+Να σημειωθεί ότι το L-10 δεν υποστηρίζει τους περισσότερους δωρεάν λογαριασμούς Hotmail και,
 όπως οι περισσότερες εφαρμογές ηλεκτρονικού ταχυδρομείου, έχει θεματάκια με το Microsoft Exchange.
 </p><p>
 Παρακαλώ υποβάλετε αναφορές σφαλμάτων, συμβάλλετε νέα χαρακτηριστικά και θέστε ερωτήσεις στο
@@ -54,9 +54,9 @@
 </p>
     ]]></string>
   <!--Default signature-->
-  <string name="default_signature">-- \nΣταλμένο από τη συσκευή μου Android με το K-9 Mail. Παρακαλώ συγχωρήστε την ολιγολογία μου.</string>
+  <string name="default_signature">-- \nΣταλμένο από τη συσκευή μου Android με το L-10 Mail. Παρακαλώ συγχωρήστε την ολιγολογία μου.</string>
   <!--General strings that include the app name-->
-  <string name="account_delete_dlg_instructions_fmt">Ο λογαριασμός \'<xliff:g id="account">%s</xliff:g>\' θα διαγραφεί από το K-9 Mail.</string>
+  <string name="account_delete_dlg_instructions_fmt">Ο λογαριασμός \'<xliff:g id="account">%s</xliff:g>\' θα διαγραφεί από το L-10 Mail.</string>
   <!--=== General strings ==================================================================-->
   <string name="authors">Συντελεστές</string>
   <string name="app_revision">Πληροφορίες έκδοσης</string>
@@ -64,7 +64,7 @@
   <string name="read_messages_desc">Επιτρέπει στην εφαρμογή να διαβάζει την ηλεκτρονική σας αλληλογραφία.</string>
   <string name="delete_messages_label">Διαγραφή μηνυμάτων</string>
   <string name="delete_messages_desc">Επιτρέπει στην εφαρμογή να διαγράφει την ηλεκτρονική σας αλληλογραφία.</string>
-  <string name="about_title">Σχετικά με το K-9 Mail</string>
+  <string name="about_title">Σχετικά με το L-10 Mail</string>
   <string name="accounts_title">Λογαριασμοί</string>
   <string name="folders_title">Φάκελοι</string>
   <string name="advanced">Προχωρημένα</string>
@@ -265,7 +265,7 @@
   <string name="global_settings_confirm_menu_mark_all_read">Μαρκάρισμα όλων των μηνυμάτων ως αναγνωσμένων</string>
   <string name="global_settings_confirm_action_delete_notif">Διαγραφή (από ειδοποίηση)</string>
   <string name="global_settings_privacy_hide_useragent">Απόκρυψη προγράμματος-πελάτη αλληλογραφίας</string>
-  <string name="global_settings_privacy_hide_useragent_detail">Αφαίρεση του Πράκτορα-χρήστη K-9 από την επικεφαλίδα του μηνύματος</string>
+  <string name="global_settings_privacy_hide_useragent_detail">Αφαίρεση του Πράκτορα-χρήστη L-10 από την επικεφαλίδα του μηνύματος</string>
   <string name="global_settings_privacy_hide_timezone">Απόκρυψη ζώνης ώρας</string>
   <string name="global_settings_privacy_hide_timezone_detail">Χρήση της Συντονισμένης Παγκόσμιας Ώρας έναντι της τοπικής ζώνης ώρας, στις επικεφαλίδες αλληλογραφίας και απάντησης</string>
   <string name="global_settings_notification_hide_subject_title">Απόκρυψη θέματος στις ειδοποιήσεις</string>
@@ -979,7 +979,7 @@
   <string name="unsigned_text_divider_label">Ανυπόγραφο κείμενο</string>
   <string name="apg_deprecated_title">Προειδοποίηση απόρριψης APG</string>
   <string name="apg_deprecated_1">Το APG δεν διατηρείται πλέον!</string>
-  <string name="apg_deprecated_2">Εξαιτίας αυτού, η υποστήριξη για APG έχει αφαιρεθεί από το K-9 Mail.</string>
+  <string name="apg_deprecated_2">Εξαιτίας αυτού, η υποστήριξη για APG έχει αφαιρεθεί από το L-10 Mail.</string>
   <string name="apg_deprecated_bullet_1">Η ανάπτυξη σταμάτησε στις αρχές του 2014</string>
   <string name="apg_deprecated_bullet_2">Περιέχει μη λυμένα θέματα ασφάλειας</string>
   <string name="apg_learn_more">Μπορείτε να <a href="https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html">πατήσετε εδώ</a> για να μάθετε περισσότερα.</string>
@@ -988,7 +988,7 @@
   <string name="crypto_no_provider_title">Αυτό το μήνυμα είναι κρυπτογραφημένο</string>
   <string name="crypto_no_provider_message">Αυτό το μήνυμα έχει κρυπτογραφηθεί με το OpenPGP.\nΓια να το διαβάσετε, πρέπει να εγκαταστήσετε και να ρυθμίσετε τις παραμέτρους μιας συμβατής εφαρμογής OpenPGP.</string>
   <string name="crypto_no_provider_button">Μετάβαση στις Ρυθμίσεις</string>
-  <string name="mail_list_widget_text">Λίστα Μηνυμάτων του K-9</string>
+  <string name="mail_list_widget_text">Λίστα Μηνυμάτων του L-10</string>
   <string name="mail_list_widget_loading">Φόρτωση μηνυμάτων...</string>
   <string name="fetching_folders_failed">Η λήψη της λίστας φακέλων απέτυχε</string>
   <string name="error_recipient_crypto_retrieve">Παρουσιάστηκε σφάλμα κατά την ανάκτηση της κατάστασης του παραλήπτη από την υπηρεσία παροχής OpenPGP!</string>
@@ -1011,7 +1011,7 @@
   <string name="general_settings_title">Γενικές ρυθμίσεις</string>
   <string name="dialog_openkeychain_info_title">Δεν υπάρχει εγκατεστημένη εφαρμογή OpenPGP</string>
   <string name="dialog_openkeychain_info_install">Εγκατάσταση</string>
-  <string name="dialog_openkeychain_info_text">Το K-9 Mail χρειάζεται το OpenKeychain για διατερματική κρυπτογράφηση.</string>
+  <string name="dialog_openkeychain_info_text">Το L-10 Mail χρειάζεται το OpenKeychain για διατερματική κρυπτογράφηση.</string>
   <string name="encrypted_subject">Κρυπτογραφημένο μήνυμα</string>
   <string name="account_settings_crypto_encrypt_subject">Κρυπτογράφηση θεμάτων των μηνυμάτων </string>
   <string name="account_settings_crypto_encrypt_subject_subtitle">Ενδέχεται να μην υποστηρίζεται από ορισμένους παραλήπτες</string>

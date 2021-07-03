@@ -3,12 +3,12 @@
   <!--=== App-specific strings =============================================================-->
   <!--This should make it easier for forks to change the branding-->
   <!--Used in AndroidManifest.xml-->
-  <string name="app_name">K-9 Mail</string>
-  <string name="shortcuts_title">Konta K-9</string>
-  <string name="unread_widget_label">K-9 Mail nieprzeczytane</string>
+  <string name="app_name">L-10 Mail</string>
+  <string name="shortcuts_title">Konta L-10</string>
+  <string name="unread_widget_label">L-10 Mail nieprzeczytane</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">Autorzy K-9 Mail</string>
-  <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Portions Copyright 2006-<xliff:g>%s</xliff:g> the Android Open Source Project.</string>
+  <string name="app_authors">Autorzy L-10 Mail</string>
+  <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> The L-10 Dog Walkers. Portions Copyright 2006-<xliff:g>%s</xliff:g> the Android Open Source Project.</string>
   <string name="source_code">Kod źródłowy</string>
   <string name="app_license">Licencja Apache, Wersja 2.0</string>
   <string name="about_project_title">Projekt otwartoźródłowy</string>
@@ -16,10 +16,10 @@
   <string name="about_libraries">Biblioteki</string>
   <string name="license">Licencja</string>
   <!--Welcome message-->
-  <string name="welcome_message_title">Witaj w K-9 Mail</string>
+  <string name="welcome_message_title">Witaj w L-10 Mail</string>
   <string name="accounts_welcome"><![CDATA[
 <p>
-K-9 Mail to darmowy zaawansowany program pocztowy dla systemu Android.
+L-10 Mail to darmowy zaawansowany program pocztowy dla systemu Android.
 </p><p>
 Oto niektóre z jego istotnych funkcji:
 </p>
@@ -40,7 +40,7 @@ Oto niektóre z jego istotnych funkcji:
   <li>…i wiele innych</li>
 </ul>
 <p>
-K-9 nie obsługuje większości darmowych kont Hotmail oraz, jak wiele innych programów pocztowych, może być kapryśny przy połączeniach z serwerami Microsoft Exchange.
+L-10 nie obsługuje większości darmowych kont Hotmail oraz, jak wiele innych programów pocztowych, może być kapryśny przy połączeniach z serwerami Microsoft Exchange.
 </p><p>
 Wszelkie zgłoszenia usterek, zapytania oraz pomysły na nowe funkcje prosimy przesyłać za pośrednictwem strony projektu
 <a href="https://github.com/k9mail/k-9/">https://github.com/k9mail/k-9/</a>.
@@ -48,9 +48,9 @@ Wszelkie zgłoszenia usterek, zapytania oraz pomysły na nowe funkcje prosimy pr
     ]]></string>
   <!--Default signature-->
   <string name="default_signature">-- 
-Wysłane z urządzenia Android za pomocą K-9 Mail. Proszę wybaczyć moją zwięzłość.</string>
+Wysłane z urządzenia Android za pomocą L-10 Mail. Proszę wybaczyć moją zwięzłość.</string>
   <!--General strings that include the app name-->
-  <string name="account_delete_dlg_instructions_fmt">Konto \"<xliff:g id="account">%s</xliff:g>\" zostanie usunięte z K-9 Mail.</string>
+  <string name="account_delete_dlg_instructions_fmt">Konto \"<xliff:g id="account">%s</xliff:g>\" zostanie usunięte z L-10 Mail.</string>
   <!--=== General strings ==================================================================-->
   <string name="authors">Autorzy</string>
   <string name="app_revision">Informacja o wersji</string>
@@ -58,7 +58,7 @@ Wysłane z urządzenia Android za pomocą K-9 Mail. Proszę wybaczyć moją zwi�
   <string name="read_messages_desc">Zezwalaj tej aplikacji na czytanie Twoich wiadomości</string>
   <string name="delete_messages_label">Usuń wiadomości</string>
   <string name="delete_messages_desc">Zezwalaj tej aplikacji na usuwanie Twoich wiadomości.</string>
-  <string name="about_title">O K-9 Mail</string>
+  <string name="about_title">O L-10 Mail</string>
   <string name="accounts_title">Konta</string>
   <string name="folders_title">Foldery</string>
   <string name="advanced">Zaawansowane</string>
@@ -261,7 +261,7 @@ Wysłane z urządzenia Android za pomocą K-9 Mail. Proszę wybaczyć moją zwi�
   <string name="global_settings_confirm_menu_mark_all_read">Oznacz wszystkie wiadomości jako przeczytane</string>
   <string name="global_settings_confirm_action_delete_notif">Usuń (powiadomienie)</string>
   <string name="global_settings_privacy_hide_useragent">Usuń nagłówek \"User-Agent\"</string>
-  <string name="global_settings_privacy_hide_useragent_detail">Usuń User-Agent K-9 z nagłówka wiadomości</string>
+  <string name="global_settings_privacy_hide_useragent_detail">Usuń User-Agent L-10 z nagłówka wiadomości</string>
   <string name="global_settings_privacy_hide_timezone">Ukryj strefę czasową</string>
   <string name="global_settings_privacy_hide_timezone_detail">Używaj czasu UTC zamiast czasu lokalnego w nagłówkach wiadomości i odpowiedzi</string>
   <string name="global_settings_notification_hide_subject_title">Ukryj temat w powiadomieniach</string>
@@ -983,7 +983,7 @@ Wysłane z urządzenia Android za pomocą K-9 Mail. Proszę wybaczyć moją zwi�
   <string name="unsigned_text_divider_label">Niepodpisany tekst</string>
   <string name="apg_deprecated_title">Ostrzeżenie o przestarzałości APG</string>
   <string name="apg_deprecated_1">APG nie jest już rozwijany!</string>
-  <string name="apg_deprecated_2">Z tego powodu wsparcie dla APG zostało usunięte z K-9 Mail.</string>
+  <string name="apg_deprecated_2">Z tego powodu wsparcie dla APG zostało usunięte z L-10 Mail.</string>
   <string name="apg_deprecated_bullet_1">Rozwój zakończył się na początku 2014 roku.</string>
   <string name="apg_deprecated_bullet_2">Zawiera nienaprawione błędy bezpieczeństwa.</string>
   <string name="apg_learn_more">Możesz <a href="https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html">kliknąć tu</a> by dowiedzieć się więcej.</string>
@@ -992,7 +992,7 @@ Wysłane z urządzenia Android za pomocą K-9 Mail. Proszę wybaczyć moją zwi�
   <string name="crypto_no_provider_title">Ta wiadomość e-mail jest zaszyfrowana</string>
   <string name="crypto_no_provider_message">Ta wiadomość e-mail została zaszyfrowana z użyciem OpenPGP.\n Aby ją odczytać, należy zainstalować i skonfigurować zgodną aplikację OpenPGP.</string>
   <string name="crypto_no_provider_button">Przejdź do ustawień</string>
-  <string name="mail_list_widget_text">Lista wiadomości K-9</string>
+  <string name="mail_list_widget_text">Lista wiadomości L-10</string>
   <string name="mail_list_widget_loading">Ładowanie wiadomości…</string>
   <string name="fetching_folders_failed">Pobieranie listy katalogów się nie powiodło.</string>
   <string name="error_recipient_crypto_retrieve">Błąd pobierania statusu odbiorcy z dostawcy OpenPGP</string>
@@ -1015,7 +1015,7 @@ Wysłane z urządzenia Android za pomocą K-9 Mail. Proszę wybaczyć moją zwi�
   <string name="general_settings_title">Ustawienia ogólne</string>
   <string name="dialog_openkeychain_info_title">Brak aplikacji dla OpenPGP</string>
   <string name="dialog_openkeychain_info_install">Instaluj</string>
-  <string name="dialog_openkeychain_info_text">K-9 Mail wymaga OpenKeychain dla szyfrowania pomiędzy urządzeniami końcowymi \"end-to-end\".</string>
+  <string name="dialog_openkeychain_info_text">L-10 Mail wymaga OpenKeychain dla szyfrowania pomiędzy urządzeniami końcowymi \"end-to-end\".</string>
   <string name="encrypted_subject">Zaszyfrowana wiadomość</string>
   <string name="account_settings_crypto_encrypt_subject">Zaszyfruj tematy wiadomości</string>
   <string name="account_settings_crypto_encrypt_subject_subtitle">Może nie być wspierana przez niektórych odbiorców</string>

@@ -3,20 +3,20 @@
   <!--=== App-specific strings =============================================================-->
   <!--This should make it easier for forks to change the branding-->
   <!--Used in AndroidManifest.xml-->
-  <string name="app_name">K-9 e-post</string>
-  <string name="shortcuts_title">K-9 Konti</string>
-  <string name="unread_widget_label">K-9 Ulest</string>
+  <string name="app_name">L-10 e-post</string>
+  <string name="shortcuts_title">L-10 Konti</string>
+  <string name="unread_widget_label">L-10 Ulest</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">The K-9 Dog Walkers</string>
-  <string name="app_copyright_fmt">Opphavsrett 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Kopirett for noen deler 2006-<xliff:g>%s</xliff:g> Android Open Source Project.</string>
+  <string name="app_authors">The L-10 Dog Walkers</string>
+  <string name="app_copyright_fmt">Opphavsrett 2008-<xliff:g>%s</xliff:g> The L-10 Dog Walkers. Kopirett for noen deler 2006-<xliff:g>%s</xliff:g> Android Open Source Project.</string>
   <string name="app_license">Apache License, Version 2.0</string>
   <string name="about_libraries">Bibliotek</string>
   <string name="license">Lisens</string>
   <!--Welcome message-->
-  <string name="welcome_message_title">Velkommen til K-9 e-post</string>
+  <string name="welcome_message_title">Velkommen til L-10 e-post</string>
   <string name="accounts_welcome"><![CDATA[
 <p>
-K-9 E-post er en kraftig og fri e-postklient for Android.
+L-10 E-post er en kraftig og fri e-postklient for Android.
 </p><p>
 Dets forbedrede funksjoner inkluderer:
 </p>
@@ -37,7 +37,7 @@ Dets forbedrede funksjoner inkluderer:
   <li>…med mer</li>
 </ul>
 <p>
-Merk at K-9 ikke støtter de fleste gratis Hotmail-kontoer, og har, som mange andre
+Merk at L-10 ikke støtter de fleste gratis Hotmail-kontoer, og har, som mange andre
 e-postklienter, noen problemer med å snakke med Microsoft Exchange.
 </p><p>
 Send feilmeldinger, bidra med nye funksjoner og still spørsmål her:
@@ -45,9 +45,9 @@ Send feilmeldinger, bidra med nye funksjoner og still spørsmål her:
 </p>
     ]]></string>
   <!--Default signature-->
-  <string name="default_signature">-- \nSendt fra min Android-enhet med K-9 e-post. Unnskyld min kortfattethet.</string>
+  <string name="default_signature">-- \nSendt fra min Android-enhet med L-10 e-post. Unnskyld min kortfattethet.</string>
   <!--General strings that include the app name-->
-  <string name="account_delete_dlg_instructions_fmt">Kontoen \"<xliff:g id="account">%s</xliff:g>\" vil bli fjernet fra K-9 e-post</string>
+  <string name="account_delete_dlg_instructions_fmt">Kontoen \"<xliff:g id="account">%s</xliff:g>\" vil bli fjernet fra L-10 e-post</string>
   <!--=== General strings ==================================================================-->
   <string name="authors">Utviklere</string>
   <string name="app_revision">Revisjonsinfo</string>
@@ -55,7 +55,7 @@ Send feilmeldinger, bidra med nye funksjoner og still spørsmål her:
   <string name="read_messages_desc">Tillater denne applikasjonen å lese dine e-poster.</string>
   <string name="delete_messages_label">Slett e-poster</string>
   <string name="delete_messages_desc">Tillater dette programmet å slette dine e-poster.</string>
-  <string name="about_title">Om K-9 Mail</string>
+  <string name="about_title">Om L-10 Mail</string>
   <string name="accounts_title">Kontoer</string>
   <string name="folders_title">Mapper</string>
   <string name="advanced">Avansert</string>
@@ -256,7 +256,7 @@ til <xliff:g id="messages_to_load">%d</xliff:g> flere</string>
   <string name="global_settings_confirm_menu_mark_all_read">Merk alle meldinger som lest</string>
   <string name="global_settings_confirm_action_delete_notif">Slett (fra varsel)</string>
   <string name="global_settings_privacy_hide_useragent">Skjul e-postklient</string>
-  <string name="global_settings_privacy_hide_useragent_detail">Fjern K-9 -brukeragent fra meldingshoder</string>
+  <string name="global_settings_privacy_hide_useragent_detail">Fjern L-10 -brukeragent fra meldingshoder</string>
   <string name="global_settings_privacy_hide_timezone">Skjul tidssone</string>
   <string name="global_settings_privacy_hide_timezone_detail">Bruk UTC istedenfor lokal tidssone i meldings- og svar-hoder</string>
   <string name="global_settings_notification_hide_subject_title">Skjul emner i varslinger</string>
@@ -956,7 +956,7 @@ til <xliff:g id="messages_to_load">%d</xliff:g> flere</string>
   <string name="unsigned_text_divider_label">Usignert tekst</string>
   <string name="apg_deprecated_title">APG-foreldelsesadvarsel</string>
   <string name="apg_deprecated_1">APG vedlikeholdes ikke lenger</string>
-  <string name="apg_deprecated_2">På grunn av dette, har støtten for APG blitt fjernet fra K-9.</string>
+  <string name="apg_deprecated_2">På grunn av dette, har støtten for APG blitt fjernet fra L-10.</string>
   <string name="apg_deprecated_bullet_1">Utviklingen stoppet tidlig i 2014</string>
   <string name="apg_deprecated_bullet_2">Inneholder sikkerhetsfeil som ikke er rettet</string>
   <string name="apg_learn_more">Du kan <a href="https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html">klikke her for å</a> lære mer.</string>
@@ -965,7 +965,7 @@ til <xliff:g id="messages_to_load">%d</xliff:g> flere</string>
   <string name="crypto_no_provider_title">Denne e-posten er kryptert</string>
   <string name="crypto_no_provider_message">Denne e-posten har blitt kryptert med OpenPGP.\nFor å lese den, må du installere og sette opp et kompatibelt OpenPGP-program.</string>
   <string name="crypto_no_provider_button">Gå til \"Innstillinger\"</string>
-  <string name="mail_list_widget_text">K-9 meldingsliste</string>
+  <string name="mail_list_widget_text">L-10 meldingsliste</string>
   <string name="mail_list_widget_loading">Laster inn meldinger…</string>
   <string name="fetching_folders_failed">Innhenting av mappeliste mislyktes</string>
   <string name="error_recipient_crypto_retrieve">Feil under mottak av mottakerstatus fra OpenPGP-mottaker!</string>
@@ -988,7 +988,7 @@ til <xliff:g id="messages_to_load">%d</xliff:g> flere</string>
   <string name="general_settings_title">Generelle innstillinger</string>
   <string name="dialog_openkeychain_info_title">Inget OpenPGP-program installert</string>
   <string name="dialog_openkeychain_info_install">Installer</string>
-  <string name="dialog_openkeychain_info_text">K-9 Mail krever OpenKeychain for ende-til-ende -kryptering.</string>
+  <string name="dialog_openkeychain_info_text">L-10 Mail krever OpenKeychain for ende-til-ende -kryptering.</string>
   <string name="encrypted_subject">Kryptert melding</string>
   <string name="account_settings_crypto_encrypt_subject">Kryptert meldingsemne.</string>
   <string name="account_settings_crypto_encrypt_subject_subtitle">Er kanskje ikke støttet av noen mottakere</string>

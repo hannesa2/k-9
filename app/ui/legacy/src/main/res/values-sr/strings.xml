@@ -8,7 +8,7 @@
   <string name="unread_widget_label">К-9 непрочитане</string>
   <!--Used in the about dialog-->
   <string name="app_authors">К-9 развојни тим</string>
-  <string name="app_copyright_fmt">Ауторска права 2008-<xliff:g>%s</xliff:g> K-9 развојни тим. Део ауторских права 2006-<xliff:g>%s</xliff:g> Андроид пројекат отвореног кoда.</string>
+  <string name="app_copyright_fmt">Ауторска права 2008-<xliff:g>%s</xliff:g> L-10 развојни тим. Део ауторских права 2006-<xliff:g>%s</xliff:g> Андроид пројекат отвореног кoда.</string>
   <string name="source_code">Изворни код</string>
   <string name="app_license">Апач лиценца, верзије 2.0</string>
   <string name="about_project_title">Пројекат отвореног кода</string>

@@ -3,12 +3,12 @@
   <!--=== App-specific strings =============================================================-->
   <!--This should make it easier for forks to change the branding-->
   <!--Used in AndroidManifest.xml-->
-  <string name="app_name">Пошта K-9</string>
+  <string name="app_name">Пошта L-10</string>
   <string name="shortcuts_title">Акаўнты</string>
   <string name="unread_widget_label">Не прачытана</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">The K-9 Dog Walkers</string>
-  <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Portions Copyright 2006-<xliff:g>%s</xliff:g> the Android Open Source Project.</string>
+  <string name="app_authors">The L-10 Dog Walkers</string>
+  <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> The L-10 Dog Walkers. Portions Copyright 2006-<xliff:g>%s</xliff:g> the Android Open Source Project.</string>
   <string name="source_code">Зыходны код</string>
   <string name="app_license">Ліцэнзія Apache, версія 2.0</string>
   <string name="about_project_title">Праект з адкрытым зыходным кодам</string>
@@ -22,9 +22,9 @@
   <string name="changelog_loading_error">Не атрымалася загрузіць спіс змен.</string>
   <string name="changelog_version_title">Версія %s</string>
   <!--Welcome message-->
-  <string name="welcome_message_title">Вітаем у K-9</string>
+  <string name="welcome_message_title">Вітаем у L-10</string>
   <string name="accounts_welcome"><![CDATA[<p>
-K-9 Mail - шматфункцыянальны свабодны паштовы кліент для Android.
+L-10 Mail - шматфункцыянальны свабодны паштовы кліент для Android.
 </p><p>
 Магчымасці:
 </p>
@@ -45,16 +45,16 @@ K-9 Mail - шматфункцыянальны свабодны паштовы к
   <li>…і іншае</li>
 </ul>
 <p>
-Калі ласка, звярніце ўвагу, што K-9 не падтрымлівае бясплатныя акаўнты Hotmail і не цалкам падтрымлівае Microsoft Exchange.
+Калі ласка, звярніце ўвагу, што L-10 не падтрымлівае бясплатныя акаўнты Hotmail і не цалкам падтрымлівае Microsoft Exchange.
 </p><p>
 Пляцоўка распрацоўкі:
 <a href="https://github.com/k9mail/k-9/">https://github.com/k9mail/k-9/</a>.
 </p>
     ]]></string>
   <!--Default signature-->
-  <string name="default_signature">-- \nАдпраўлена з маёй прылады праз K-9 Mail. Выбачайце за сцісласць.</string>
+  <string name="default_signature">-- \nАдпраўлена з маёй прылады праз L-10 Mail. Выбачайце за сцісласць.</string>
   <!--General strings that include the app name-->
-  <string name="account_delete_dlg_instructions_fmt">Акаўнт \"<xliff:g id="account">%s</xliff:g>\" будзе выдалены з K-9 Mail.</string>
+  <string name="account_delete_dlg_instructions_fmt">Акаўнт \"<xliff:g id="account">%s</xliff:g>\" будзе выдалены з L-10 Mail.</string>
   <!--=== General strings ==================================================================-->
   <string name="authors">Аўтары</string>
   <string name="app_revision">Рэвізія</string>
@@ -62,7 +62,7 @@ K-9 Mail - шматфункцыянальны свабодны паштовы к
   <string name="read_messages_desc">Дазваляе праграме чытаць электронную пошту.</string>
   <string name="delete_messages_label">Чытанне электроннай пошты</string>
   <string name="delete_messages_desc">Дазваляе праграме выдаляць электронную пошту.</string>
-  <string name="about_title">Пра K-9 Mail</string>
+  <string name="about_title">Пра L-10 Mail</string>
   <string name="accounts_title">Акаўнты</string>
   <string name="folders_title">Каталогі</string>
   <string name="advanced">Дадаткова</string>
@@ -267,7 +267,7 @@ K-9 Mail - шматфункцыянальны свабодны паштовы к
   <string name="global_settings_confirm_menu_mark_all_read">Пазначыць усе лісты прачытанымі</string>
   <string name="global_settings_confirm_action_delete_notif">Выдаліць (у апавяшчэнні)</string>
   <string name="global_settings_privacy_hide_useragent">Схаваць паштовы кліент</string>
-  <string name="global_settings_privacy_hide_useragent_detail">Прыбраць \"K-9 User-Agent\" з загалоўкаў лістоў</string>
+  <string name="global_settings_privacy_hide_useragent_detail">Прыбраць \"L-10 User-Agent\" з загалоўкаў лістоў</string>
   <string name="global_settings_privacy_hide_timezone">Схаваць часавы пояс</string>
   <string name="global_settings_privacy_hide_timezone_detail">Выкарыстоўваць у загалоўках лістоў UTC замест мясцовага часу</string>
   <string name="global_settings_notification_hide_subject_title">Схаваць тэму ў апавяшчэнні</string>
@@ -995,7 +995,7 @@ K-9 Mail - шматфункцыянальны свабодны паштовы к
   <string name="unsigned_text_divider_label">Непадпісаны тэкст</string>
   <string name="apg_deprecated_title">Спыненне падтрымкі APG</string>
   <string name="apg_deprecated_1">APG больш не распрацоўваецца!</string>
-  <string name="apg_deprecated_2">Праз гэта K-9 Mail больш не падтрымлівае APG.</string>
+  <string name="apg_deprecated_2">Праз гэта L-10 Mail больш не падтрымлівае APG.</string>
   <string name="apg_deprecated_bullet_1">Распрацоўка скончаная ў пачатку 2014</string>
   <string name="apg_deprecated_bullet_2">Ёсць нявырашаныя праблемы бяспекі</string>
   <string name="apg_learn_more">Націсніце <a href="https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html">сюды</a>, каб даведацца больш.</string>
@@ -1004,7 +1004,7 @@ K-9 Mail - шматфункцыянальны свабодны паштовы к
   <string name="crypto_no_provider_title">Ліст зашыфраваны</string>
   <string name="crypto_no_provider_message">Ліст зашыфраваны OpenPGP\nКаб прачытаць, неабходна ўсталяваць і наладзіць праграму OpenPGP.</string>
   <string name="crypto_no_provider_button">Перайсці ў налады</string>
-  <string name="mail_list_widget_text">Лісты K-9</string>
+  <string name="mail_list_widget_text">Лісты L-10</string>
   <string name="mail_list_widget_loading">Загрузка лістоў…</string>
   <string name="fetching_folders_failed">Не ўдалося атрымаць спіс каталогаў</string>
   <string name="error_recipient_crypto_retrieve">Не ўдалося атрымаць статус адрасата ў пастаўшчыка OpenPGP!</string>
@@ -1027,7 +1027,7 @@ K-9 Mail - шматфункцыянальны свабодны паштовы к
   <string name="general_settings_title">Асноўныя налады</string>
   <string name="dialog_openkeychain_info_title">Няма ўсталяванай праграмы OpenPGP</string>
   <string name="dialog_openkeychain_info_install">Усталяваць</string>
-  <string name="dialog_openkeychain_info_text">Для скразнога шыфравання ў K-9 Mail патрабуецца OpenKeychain.</string>
+  <string name="dialog_openkeychain_info_text">Для скразнога шыфравання ў L-10 Mail патрабуецца OpenKeychain.</string>
   <string name="encrypted_subject">Зашыфраваны ліст</string>
   <string name="account_settings_crypto_encrypt_subject">Шыфраваць тэмы лістоў</string>
   <string name="account_settings_crypto_encrypt_subject_subtitle">Можа падтрымлівацца не ўсімі адрасатамі</string>

@@ -3,11 +3,11 @@
   <!--=== App-specific strings =============================================================-->
   <!--This should make it easier for forks to change the branding-->
   <!--Used in AndroidManifest.xml-->
-  <string name="app_name">K-9 Mail</string>
-  <string name="shortcuts_title">Účty K-9</string>
-  <string name="unread_widget_label">K-9 Nepřečtená</string>
+  <string name="app_name">L-10 Mail</string>
+  <string name="shortcuts_title">Účty L-10</string>
+  <string name="unread_widget_label">L-10 Nepřečtená</string>
   <!--Used in the about dialog-->
-  <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Portions Copyright 2006-<xliff:g>%s</xliff:g> the Android Open Source Project.</string>
+  <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> The L-10 Dog Walkers. Portions Copyright 2006-<xliff:g>%s</xliff:g> the Android Open Source Project.</string>
   <string name="source_code">Zdrojový kód</string>
   <string name="app_license">Apache License, verze 2.0</string>
   <string name="about_project_title">Projekt s otevřeným zdrojovým kódem</string>
@@ -20,10 +20,10 @@
   <string name="changelog_loading_error">Nelze nahrát soupis změn.</string>
   <string name="changelog_version_title">Verze %s</string>
   <!--Welcome message-->
-  <string name="welcome_message_title">Vítejte v K-9 Mail</string>
+  <string name="welcome_message_title">Vítejte v L-10 Mail</string>
   <string name="accounts_welcome"><![CDATA[
 <p>
-K-9 Mail je všestranný e-mailový klient pro Android.
+L-10 Mail je všestranný e-mailový klient pro Android.
 </p><p>
 Vylepšené funkce zahrnují:
 </p>
@@ -44,16 +44,16 @@ Vylepšené funkce zahrnují:
   <li>…a další</li>
 </ul>
 <p>
-K-9 nepodporuje většinu bezplatných účtů u Hotmail a jako mnoho poštovních klientů vykazuje zvláštnosti při komunikaci s Microsoft Exchange.
+L-10 nepodporuje většinu bezplatných účtů u Hotmail a jako mnoho poštovních klientů vykazuje zvláštnosti při komunikaci s Microsoft Exchange.
 </p><p>
 Hlášení o chyb, úpravy pro nové funkce a dotazy zadávejte prostřednictvím
 <a href="https://github.com/k9mail/k-9/">https://github.com/k9mail/k-9/</a>.
 </p>
     ]]></string>
   <!--Default signature-->
-  <string name="default_signature">-- \nOdesláno aplikací K-9 Mail ze systému Android. Omluvte prosím moji stručnost.</string>
+  <string name="default_signature">-- \nOdesláno aplikací L-10 Mail ze systému Android. Omluvte prosím moji stručnost.</string>
   <!--General strings that include the app name-->
-  <string name="account_delete_dlg_instructions_fmt">Účet \"<xliff:g id="account">%s</xliff:g>\" bude odstraněn z K-9 Mail.</string>
+  <string name="account_delete_dlg_instructions_fmt">Účet \"<xliff:g id="account">%s</xliff:g>\" bude odstraněn z L-10 Mail.</string>
   <!--=== General strings ==================================================================-->
   <string name="authors">Autoři</string>
   <string name="app_revision">Informace o revizi</string>
@@ -61,7 +61,7 @@ Hlášení o chyb, úpravy pro nové funkce a dotazy zadávejte prostřednictví
   <string name="read_messages_desc">Povolit této aplikaci číst vaši poštu.</string>
   <string name="delete_messages_label">Mazat zprávy</string>
   <string name="delete_messages_desc">Povolit této aplikaci mazat e-maily.</string>
-  <string name="about_title">O aplikaci K-9 mail</string>
+  <string name="about_title">O aplikaci L-10 mail</string>
   <string name="accounts_title">Účty</string>
   <string name="folders_title">Složky</string>
   <string name="advanced">Pokročilé</string>
@@ -266,7 +266,7 @@ Hlášení o chyb, úpravy pro nové funkce a dotazy zadávejte prostřednictví
   <string name="global_settings_confirm_menu_mark_all_read">Označit všechny zprávy jako přečtené</string>
   <string name="global_settings_confirm_action_delete_notif">Smazat (z oznámení)</string>
   <string name="global_settings_privacy_hide_useragent">Skrýt e-mailového klienta</string>
-  <string name="global_settings_privacy_hide_useragent_detail">Odstraňovat z hlaviček e-mailů informaci o K-9 (user agent)</string>
+  <string name="global_settings_privacy_hide_useragent_detail">Odstraňovat z hlaviček e-mailů informaci o L-10 (user agent)</string>
   <string name="global_settings_privacy_hide_timezone">Skrýt časovou zónu</string>
   <string name="global_settings_privacy_hide_timezone_detail">Používat v hlavičkách e-mailů a odpovědí univerzální čas (UTC) namísto toho místního</string>
   <string name="global_settings_notification_hide_subject_title">Schovej předmet v upozorněních</string>
@@ -980,7 +980,7 @@ Hlášení o chyb, úpravy pro nové funkce a dotazy zadávejte prostřednictví
   <string name="unsigned_text_divider_label">Nepodepsaný text</string>
   <string name="apg_deprecated_title">Varování o ukončení podpory APG</string>
   <string name="apg_deprecated_1">APG už není udržováno!</string>
-  <string name="apg_deprecated_2">Kvůli tomuto jsme odstranili podporu pro APG z K-9 Mailu.</string>
+  <string name="apg_deprecated_2">Kvůli tomuto jsme odstranili podporu pro APG z L-10 Mailu.</string>
   <string name="apg_deprecated_bullet_1">Vývoj skončil na začátku roku 2014</string>
   <string name="apg_deprecated_bullet_2">Obsahuje neopravené bezpečnostní chyby</string>
   <string name="apg_learn_more"><a href="https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html">Kliknutím sem</a> se můžete dozvědět více.</string>
@@ -989,7 +989,7 @@ Hlášení o chyb, úpravy pro nové funkce a dotazy zadávejte prostřednictví
   <string name="crypto_no_provider_title">Tento e-mail je šifrovaný</string>
   <string name="crypto_no_provider_message">Tento email byl zašifrovaný pomocí OpenPGP.\nAbyste si ho mohl/a přečíst, potřebujete si nainstalovat a nakonfigurovat kompatibilní OpenPGP aplikaci.</string>
   <string name="crypto_no_provider_button">Přejít do nastavení</string>
-  <string name="mail_list_widget_text">Seznam zpráv K-9</string>
+  <string name="mail_list_widget_text">Seznam zpráv L-10</string>
   <string name="mail_list_widget_loading">Načítání zpráv…</string>
   <string name="fetching_folders_failed">Nepodařilo se načíst seznam složek</string>
   <string name="error_recipient_crypto_retrieve">Chyba při získávání stavu příjemce z poskytovatele OpenPGP!</string>
@@ -1012,7 +1012,7 @@ Hlášení o chyb, úpravy pro nové funkce a dotazy zadávejte prostřednictví
   <string name="general_settings_title">Hlavní nastavení</string>
   <string name="dialog_openkeychain_info_title">Není nainstalovaná žádná OpenPGP aplikace</string>
   <string name="dialog_openkeychain_info_install">Nainstalovat</string>
-  <string name="dialog_openkeychain_info_text">K-9 Mail pro šifrování mezi odesilatelem a příjemcem vyžaduje OpenKeychain</string>
+  <string name="dialog_openkeychain_info_text">L-10 Mail pro šifrování mezi odesilatelem a příjemcem vyžaduje OpenKeychain</string>
   <string name="encrypted_subject">Zašifrovaná zpráva</string>
   <string name="account_settings_crypto_encrypt_subject">Šifrovat předměty e-mailů</string>
   <string name="account_settings_crypto_encrypt_subject_subtitle">Nemusí být podporováno některými příjemci</string>

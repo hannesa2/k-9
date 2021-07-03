@@ -3,20 +3,20 @@
   <!--=== App-specific strings =============================================================-->
   <!--This should make it easier for forks to change the branding-->
   <!--Used in AndroidManifest.xml-->
-  <string name="app_name">K-9 Mail</string>
-  <string name="shortcuts_title">K-9 fiókok</string>
-  <string name="unread_widget_label">K-9 olvasatlan</string>
+  <string name="app_name">L-10 Mail</string>
+  <string name="shortcuts_title">L-10 fiókok</string>
+  <string name="unread_widget_label">L-10 olvasatlan</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">The K-9 Dog Walkers</string>
-  <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> a The K-9 Dog Walkers. Részleges Copyright 2006-<xliff:g>%s</xliff:g> az Android Nyílt Forráskódú Projekt.</string>
+  <string name="app_authors">The L-10 Dog Walkers</string>
+  <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> a The L-10 Dog Walkers. Részleges Copyright 2006-<xliff:g>%s</xliff:g> az Android Nyílt Forráskódú Projekt.</string>
   <string name="app_license">Apache licensz, 2.0 verzió</string>
   <string name="about_libraries">Programkönyvtárak</string>
   <string name="license">Licensz</string>
   <!--Welcome message-->
-  <string name="welcome_message_title">Üdvözlet a K-9 Mail alkalmazásban.</string>
+  <string name="welcome_message_title">Üdvözlet a L-10 Mail alkalmazásban.</string>
   <string name="accounts_welcome"><![CDATA[
 <p>
-A K-9 Mail egy hatékony, ingyenes email alkalmazás Androidra.
+A L-10 Mail egy hatékony, ingyenes email alkalmazás Androidra.
 </p><p>
 Továbbfejleszett elemek:
 </p>
@@ -36,16 +36,16 @@ Továbbfejleszett elemek:
   <li>Üzenet rendezés</li>
   <li>…és egyebek</li>
 </ul>
-<p>A K-9 nem támogatja a legtöbb Hotmail fiókot és sok email alkalmazáshoz hasonlóan vannak furcsaságok a Microsoft Exchange kezelésében.
+<p>A L-10 nem támogatja a legtöbb Hotmail fiókot és sok email alkalmazáshoz hasonlóan vannak furcsaságok a Microsoft Exchange kezelésében.
 </p><p>
 Hibajelentések beküldésével hozzájárulhatunk új funkciókhoz és kérdéseket tehetünk fel 
 <a href="https://github.com/k9mail/k-9/">https://github.com/k9mail/k-9/</a>webcímen.
 </p>
     ]]></string>
   <!--Default signature-->
-  <string name="default_signature">-- \nAndroidos készülékről küldve K-9 Mail használatával. Elnézést a rövidségért.</string>
+  <string name="default_signature">-- \nAndroidos készülékről küldve L-10 Mail használatával. Elnézést a rövidségért.</string>
   <!--General strings that include the app name-->
-  <string name="account_delete_dlg_instructions_fmt">\"<xliff:g id="account">%s</xliff:g>\" fiók eltávolításra kerül a K-9 Mail alkalmazásból.</string>
+  <string name="account_delete_dlg_instructions_fmt">\"<xliff:g id="account">%s</xliff:g>\" fiók eltávolításra kerül a L-10 Mail alkalmazásból.</string>
   <!--=== General strings ==================================================================-->
   <string name="authors">Szerzők</string>
   <string name="app_revision">Felülvizsgálati információk</string>
@@ -53,7 +53,7 @@ Hibajelentések beküldésével hozzájárulhatunk új funkciókhoz és kérdés
   <string name="read_messages_desc">Az alkalmazás olvashatja az emaileket.</string>
   <string name="delete_messages_label">Emailek törlése</string>
   <string name="delete_messages_desc">Az alkalmazás törölheti ez emaileket.</string>
-  <string name="about_title">K-9 Mail névjegy</string>
+  <string name="about_title">L-10 Mail névjegy</string>
   <string name="accounts_title">Fiókok</string>
   <string name="folders_title">Mappák</string>
   <string name="advanced">Bővített</string>
@@ -253,7 +253,7 @@ Hibajelentések beküldésével hozzájárulhatunk új funkciókhoz és kérdés
   <string name="global_settings_confirm_menu_mark_all_read">Összes üzenet megjelölése olvasottként</string>
   <string name="global_settings_confirm_action_delete_notif">Törlés (az értesítésekből)</string>
   <string name="global_settings_privacy_hide_useragent">Levelező alkalmazás elrejtése</string>
-  <string name="global_settings_privacy_hide_useragent_detail">A K-9 fazonosító eltávolítása a levél fejlécéből</string>
+  <string name="global_settings_privacy_hide_useragent_detail">A L-10 fazonosító eltávolítása a levél fejlécéből</string>
   <string name="global_settings_privacy_hide_timezone">Időzóna elrejtése</string>
   <string name="global_settings_privacy_hide_timezone_detail">UTC használata a helyi időzóna helyett a levelek fejlécében és a válasz fejlécében</string>
   <string name="global_settings_notification_hide_subject_title">Tárgy elrejtése az értesítésekben</string>
@@ -969,7 +969,7 @@ Hibajelentések beküldésével hozzájárulhatunk új funkciókhoz és kérdés
   <string name="unsigned_text_divider_label">Aláíratlan szöveg</string>
   <string name="apg_deprecated_title">APG elavultsági figyelmeztetés</string>
   <string name="apg_deprecated_1">Az APG többé nincs karbantartva!</string>
-  <string name="apg_deprecated_2">Emiatt az APG támogatás eltávolításra került a K-9 Mail alkalmazásból.</string>
+  <string name="apg_deprecated_2">Emiatt az APG támogatás eltávolításra került a L-10 Mail alkalmazásból.</string>
   <string name="apg_deprecated_bullet_1">A fejlesztés 2014 elején leállt</string>
   <string name="apg_deprecated_bullet_2">Javítatlan biztonsági hibákat tartalmaz</string>
   <string name="apg_learn_more"><a href="https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html">Kattintson ide</a>, ha többet szeretne megtudni.</string>
@@ -978,7 +978,7 @@ Hibajelentések beküldésével hozzájárulhatunk új funkciókhoz és kérdés
   <string name="crypto_no_provider_title">Ez az e-mail titkosított</string>
   <string name="crypto_no_provider_message">Az e-mail titkosítva lett OpenPGP használatával.\nAz elolvasásához egy megfelelő OpenPGP alkalmazást kell telepítenie és beállítania.</string>
   <string name="crypto_no_provider_button">Ugrás a beállításokhoz</string>
-  <string name="mail_list_widget_text">K-9 üzenetlista</string>
+  <string name="mail_list_widget_text">L-10 üzenetlista</string>
   <string name="mail_list_widget_loading">Üzenetek betöltése…</string>
   <string name="fetching_folders_failed">A mappalista lekérése sikertelen</string>
   <string name="error_recipient_crypto_retrieve">Hiba a címzettek állapotának lekérésekor az OpenPGP szolgáltatótól!</string>
@@ -1001,7 +1001,7 @@ Hibajelentések beküldésével hozzájárulhatunk új funkciókhoz és kérdés
   <string name="general_settings_title">Általános beállítások</string>
   <string name="dialog_openkeychain_info_title">Nincs OpenPGP alkalmazás telepítve</string>
   <string name="dialog_openkeychain_info_install">Telepítés</string>
-  <string name="dialog_openkeychain_info_text">A K-9 Mail az OpenKeychain alkalmazást igényli a végpontok közötti titkosításhoz.</string>
+  <string name="dialog_openkeychain_info_text">A L-10 Mail az OpenKeychain alkalmazást igényli a végpontok közötti titkosításhoz.</string>
   <string name="encrypted_subject">Titkosított üzenet</string>
   <string name="account_settings_crypto_encrypt_subject">Üzenet tárgyainak titkosítása</string>
   <string name="account_settings_crypto_encrypt_subject_subtitle">Néhány címzett esetleg nem támogatja</string>

@@ -3,12 +3,12 @@
   <!--=== App-specific strings =============================================================-->
   <!--This should make it easier for forks to change the branding-->
   <!--Used in AndroidManifest.xml-->
-  <string name="app_name">Courriel K-9 Mail</string>
-  <string name="shortcuts_title">Comptes K-9</string>
-  <string name="unread_widget_label">K-9 non lus</string>
+  <string name="app_name">Courriel L-10 Mail</string>
+  <string name="shortcuts_title">Comptes L-10</string>
+  <string name="unread_widget_label">L-10 non lus</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">Les auteurs de K-9</string>
-  <string name="app_copyright_fmt">Tous droits réservés 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Parties protégées par droits d’auteur 2006-<xliff:g>%s</xliff:g> le projet libre Android.</string>
+  <string name="app_authors">Les auteurs de L-10</string>
+  <string name="app_copyright_fmt">Tous droits réservés 2008-<xliff:g>%s</xliff:g> The L-10 Dog Walkers. Parties protégées par droits d’auteur 2006-<xliff:g>%s</xliff:g> le projet libre Android.</string>
   <string name="source_code">Code source</string>
   <string name="app_license">Licence Apache, Version 2.0</string>
   <string name="about_project_title">Projet à code source ouvert</string>
@@ -22,10 +22,10 @@
   <string name="changelog_loading_error">Impossible de charger le journal des changements</string>
   <string name="changelog_version_title">Version %s</string>
   <!--Welcome message-->
-  <string name="welcome_message_title">Bienvenue sur Courriel K-9 Mail</string>
+  <string name="welcome_message_title">Bienvenue sur Courriel L-10 Mail</string>
   <string name="accounts_welcome"><![CDATA[
 <p>
-Courriel K-9 Mail est un client de courriel puissant et ouvert pour Android.
+Courriel L-10 Mail est un client de courriel puissant et ouvert pour Android.
 </p><p>
 Ses fonctions améliorées incluent :
 </p>
@@ -46,16 +46,16 @@ Ses fonctions améliorées incluent :
   <li>et plus…</li>
 </ul>
 <p>
-Veuillez noter que K-9 ne prend pas en charge la plupart des comptes Hotmail gratuits et que, comme pour beaucoup de clients de courriel, la communication avec Microsoft Exchange est capricieuse.
+Veuillez noter que L-10 ne prend pas en charge la plupart des comptes Hotmail gratuits et que, comme pour beaucoup de clients de courriel, la communication avec Microsoft Exchange est capricieuse.
 </p><p>
 Rapportez les bogues, recommandez de nouvelles fonctions et posez vos questions sur
 <a href="https://github.com/k9mail/k-9/">https://github.com/k9mail/k-9/</a>.
 </p>
 ]]></string>
   <!--Default signature-->
-  <string name="default_signature">-- \nEnvoyé de mon appareil Android avec Courriel K-9 Mail. Veuillez excuser ma brièveté.</string>
+  <string name="default_signature">-- \nEnvoyé de mon appareil Android avec Courriel L-10 Mail. Veuillez excuser ma brièveté.</string>
   <!--General strings that include the app name-->
-  <string name="account_delete_dlg_instructions_fmt">Le compte « <xliff:g id="account">%s</xliff:g> » sera supprimé de Courriel K-9 Mail.</string>
+  <string name="account_delete_dlg_instructions_fmt">Le compte « <xliff:g id="account">%s</xliff:g> » sera supprimé de Courriel L-10 Mail.</string>
   <!--=== General strings ==================================================================-->
   <string name="authors">Auteurs</string>
   <string name="app_revision">Renseignements sur la révision</string>
@@ -63,7 +63,7 @@ Rapportez les bogues, recommandez de nouvelles fonctions et posez vos questions 
   <string name="read_messages_desc">Permet à cette application de lire vos courriels.</string>
   <string name="delete_messages_label">Supprimer les courriels</string>
   <string name="delete_messages_desc">Permet à cette application de supprimer vos courriels</string>
-  <string name="about_title">À propos de Courriel K-9 Mail</string>
+  <string name="about_title">À propos de Courriel L-10 Mail</string>
   <string name="accounts_title">Comptes</string>
   <string name="folders_title">Dossiers</string>
   <string name="advanced">Avancé</string>
@@ -139,7 +139,7 @@ Rapportez les bogues, recommandez de nouvelles fonctions et posez vos questions 
   <string name="add_attachment_action">Ajouter un fichier joint</string>
   <string name="empty_trash_action">Vider la corbeille</string>
   <string name="expunge_action">Supprimer</string>
-  <string name="about_action">À propos de Courriel K-9 Mail</string>
+  <string name="about_action">À propos de Courriel L-10 Mail</string>
   <string name="prefs_title">Paramètres</string>
   <!--Shown in place of the subject when a message has no subject. Showing this in parentheses is customary.-->
   <string name="general_no_subject">(Aucun objet)</string>
@@ -265,7 +265,7 @@ jusqu’à <xliff:g id="messages_to_load">%d</xliff:g> de plus</string>
   <string name="global_settings_confirm_menu_mark_all_read">Marquer tous les courriels comme lus</string>
   <string name="global_settings_confirm_action_delete_notif">Supprimer (d’une notification)</string>
   <string name="global_settings_privacy_hide_useragent">Cacher le client de courriel</string>
-  <string name="global_settings_privacy_hide_useragent_detail">Supprimer l’agent utilisateur K-9 des en-têtes de courriels</string>
+  <string name="global_settings_privacy_hide_useragent_detail">Supprimer l’agent utilisateur L-10 des en-têtes de courriels</string>
   <string name="global_settings_privacy_hide_timezone">Cacher le fuseau horaire</string>
   <string name="global_settings_privacy_hide_timezone_detail">Utiliser UTC au lieu du fuseau horaire local dans les en-têtes de courriel et de réponse</string>
   <string name="global_settings_notification_hide_subject_title">Cacher l’objet dans les notifications</string>
@@ -983,7 +983,7 @@ jusqu’à <xliff:g id="messages_to_load">%d</xliff:g> de plus</string>
   <string name="unsigned_text_divider_label">Texte non signé</string>
   <string name="apg_deprecated_title">Avertissement d’obsolescence d’APG</string>
   <string name="apg_deprecated_1">APG n’est plus maintenu !</string>
-  <string name="apg_deprecated_2">C’est pourquoi APG n’est plus pris en charge par Courriel K-9 Mail.</string>
+  <string name="apg_deprecated_2">C’est pourquoi APG n’est plus pris en charge par Courriel L-10 Mail.</string>
   <string name="apg_deprecated_bullet_1">Le développement s’est arrêté début 2014. </string>
   <string name="apg_deprecated_bullet_2">Des problèmes de sécurité non résolus persistent</string>
   <string name="apg_learn_more">Vous pouvez <a href="https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html">toucher ici</a> (page en anglais) pour en apprendre davantage.</string>
@@ -992,7 +992,7 @@ jusqu’à <xliff:g id="messages_to_load">%d</xliff:g> de plus</string>
   <string name="crypto_no_provider_title">Le courriel est chiffré</string>
   <string name="crypto_no_provider_message">Ce courriel a été chiffré avec OpenPGP.\nPour le lire, vous devez installer et configurer une appli compatible avec OpenPGP.</string>
   <string name="crypto_no_provider_button">Aller dans Paramètres</string>
-  <string name="mail_list_widget_text">Liste des courriels de K-9</string>
+  <string name="mail_list_widget_text">Liste des courriels de L-10</string>
   <string name="mail_list_widget_loading">Chargement des courriels…</string>
   <string name="fetching_folders_failed">Échec de récupération de la liste de dossiers</string>
   <string name="error_recipient_crypto_retrieve">Erreur d’obtention de l’état du destinataire par le fournisseur OpenPGP !</string>
@@ -1015,7 +1015,7 @@ jusqu’à <xliff:g id="messages_to_load">%d</xliff:g> de plus</string>
   <string name="general_settings_title">Paramètres généraux</string>
   <string name="dialog_openkeychain_info_title">Aucune appli OpenPGP n’est installée</string>
   <string name="dialog_openkeychain_info_install">Installer</string>
-  <string name="dialog_openkeychain_info_text">Courriel K-9 Mail exige OpenKeychain pour le chiffrement de bout en bout</string>
+  <string name="dialog_openkeychain_info_text">Courriel L-10 Mail exige OpenKeychain pour le chiffrement de bout en bout</string>
   <string name="encrypted_subject">Message chiffré</string>
   <string name="account_settings_crypto_encrypt_subject">Chiffrer l’objet des courriels</string>
   <string name="account_settings_crypto_encrypt_subject_subtitle">Pourrait ne pas être pris en charge par certains destinataires</string>

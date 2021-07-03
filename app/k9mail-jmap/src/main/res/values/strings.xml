@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="app_name">K-9 JMAP</string>
+    <string name="app_name">L-10 JMAP</string>
     <string name="empty_string" translatable="false" />
 
     <string name="add_account__email_address_error">Please enter a valid email address</string>

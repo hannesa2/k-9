@@ -11,7 +11,7 @@ dependencies {
     implementation "com.jcraft:jzlib:1.0.7"
     implementation "com.beetstra.jutf7:jutf7:1.0.0"
     implementation "commons-io:commons-io:${versions.commonsIo}"
-    implementation "com.jakewharton.timber:timber:${versions.timber}"
+    implementation "com.github.AppDevNext.Logcat:LogcatCore:${versions.timber}"
     implementation "androidx.annotation:annotation:${versions.androidxAnnotation}"
 
     testImplementation project(":mail:testing")

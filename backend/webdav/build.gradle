@@ -9,7 +9,7 @@ dependencies {
     api project(":backend:api")
     api project(":mail:protocols:webdav")
 
-    implementation "com.jakewharton.timber:timber:${versions.timber}"
+    implementation "com.github.AppDevNext.Logcat:LogcatCore:${versions.timber}"
 
     testImplementation project(":mail:testing")
     testImplementation "junit:junit:${versions.junit}"

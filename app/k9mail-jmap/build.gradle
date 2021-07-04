@@ -17,7 +17,7 @@ dependencies {
     implementation project(":backend:jmap")
 
     implementation "androidx.appcompat:appcompat:${versions.androidxAppCompat}"
-    implementation "com.jakewharton.timber:timber:${versions.timber}"
+    implementation "com.github.AppDevNext.Logcat:LogcatCore:${versions.timber}"
     implementation "androidx.constraintlayout:constraintlayout:${versions.androidxConstraintLayout}"
     implementation "com.google.android.material:material:${versions.materialComponents}"
     implementation "androidx.navigation:navigation-fragment-ktx:${versions.androidxNavigation}"

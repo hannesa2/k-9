@@ -15,6 +15,6 @@ android {
 
 dependencies {
     implementation "androidx.lifecycle:lifecycle-common:${versions.androidxLifecycle}"
-    implementation "com.jakewharton.timber:timber:${versions.timber}"
+    implementation "com.github.AppDevNext.Logcat:LogcatCore:${versions.timber}"
     implementation "com.takisoft.preferencex:preferencex:${versions.preferencesFix}"
 }

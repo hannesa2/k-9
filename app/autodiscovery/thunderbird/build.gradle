@@ -6,7 +6,7 @@ dependencies {
     implementation project(":mail:common")
     implementation project(":app:autodiscovery:api")
 
-    implementation "com.jakewharton.timber:timber:${versions.timber}"
+    implementation "com.github.AppDevNext.Logcat:LogcatCore:${versions.timber}"
     implementation "com.squareup.okhttp3:okhttp:${versions.okhttp}"
 
     testImplementation project(':app:testing')

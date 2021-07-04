@@ -17,7 +17,7 @@ dependencies {
     implementation "androidx.appcompat:appcompat:${versions.androidxAppCompat}"
     implementation "androidx.core:core-ktx:${versions.androidxCore}"
     implementation "com.takisoft.preferencex:preferencex:${versions.preferencesFix}"
-    implementation "com.jakewharton.timber:timber:${versions.timber}"
+    implementation "com.github.AppDevNext.Logcat:LogcatCore:${versions.timber}"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:${versions.kotlinCoroutines}"
 
     implementation "com.github.bumptech.glide:glide:${versions.glide}"
@@ -95,7 +95,7 @@ android {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 
-            buildConfigField "boolean", "DEVELOPER_MODE", "false"
+            buildConfigField "boolean", "DEVELOPER_MODE", "true"
         }
 
         debug {

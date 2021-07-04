@@ -5,6 +5,9 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.view.Menu
+import android.view.MenuInflater
+import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
@@ -28,12 +31,18 @@ import com.mikepenz.fastadapter.adapters.ItemAdapter
 import com.mikepenz.fastadapter.drag.ItemTouchCallback
 import com.mikepenz.fastadapter.drag.SimpleDragCallback
 import com.mikepenz.fastadapter.utils.DragDropUtil
+import info.hannes.logcat.BothLogActivity
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class SettingsListFragment : Fragment(), ItemTouchCallback {
     private val viewModel: SettingsViewModel by viewModel()
 
     private lateinit var itemAdapter: ItemAdapter<GenericItem>
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setHasOptionsMenu(true)
+    }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_settings_list, container, false)
@@ -226,5 +235,18 @@ class SettingsListFragment : Fragment(), ItemTouchCallback {
         val newAccountPosition = newPosition - firstAccountPosition
 
         viewModel.moveAccount(account, newAccountPosition)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        inflater.inflate(R.menu.menu_settings, menu)
+        super.onCreateOptionsMenu(menu, inflater)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        val id = item.itemId
+        if (id == R.id.menuLogcat) {
+            requireContext().startActivity(Intent(requireContext(), BothLogActivity::class.java))
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

@@ -8,11 +8,11 @@ import com.fsck.k9.mail.K9MailLib
 import com.fsck.k9.mailstore.LocalStore
 import com.fsck.k9.preferences.Storage
 import com.fsck.k9.preferences.StorageEditor
+import info.hannes.timber.DebugTree
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import timber.log.Timber
-import timber.log.Timber.DebugTree
 
 object K9 : EarlyInit {
     private val preferences: Preferences by inject()

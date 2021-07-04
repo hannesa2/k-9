@@ -15,6 +15,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.fsck.k9.ui.BuildConfig
 import com.fsck.k9.ui.R
 import timber.log.Timber
 
@@ -81,16 +82,7 @@ class AboutFragment : Fragment() {
         findNavController().navigate(R.id.action_aboutScreen_to_changelogScreen)
     }
 
-    private fun getVersionNumber(): String {
-        return try {
-            val context = requireContext()
-            val packageInfo = context.packageManager.getPackageInfo(context.packageName, 0)
-            packageInfo.versionName
-        } catch (e: PackageManager.NameNotFoundException) {
-            Timber.e(e, "Error getting PackageInfo")
-            "?"
-        }
-    }
+    private fun getVersionNumber() = BuildConfig.VERSIONNAME
 
     companion object {
         private val USED_LIBRARIES = arrayOf(

@@ -12,7 +12,7 @@ import androidx.core.os.bundleOf
 import androidx.preference.CheckBoxPreference
 import androidx.preference.Preference
 import com.fsck.k9.Preferences
-import com.fsck.k9.R
+import com.fsck.l10.R
 import com.fsck.k9.activity.ChooseAccount
 import com.fsck.k9.search.SearchAccount
 import com.fsck.k9.ui.choosefolder.ChooseFolderActivity

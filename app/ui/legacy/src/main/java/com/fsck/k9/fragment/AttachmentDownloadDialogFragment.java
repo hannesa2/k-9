@@ -49,7 +49,7 @@ public class AttachmentDownloadDialogFragment extends DialogFragment {
             }
         };
 
-        messagingController = MessagingController.getInstance(getActivity());
+        messagingController = MessagingController.getInstance();
         messagingController.addListener(messagingListener);
 
         dialog = new ProgressDialog(getActivity());

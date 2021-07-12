@@ -19,7 +19,7 @@ import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 
 import com.fsck.k9.K9;
-import com.fsck.k9.R;
+import com.fsck.l10.R;
 import com.fsck.k9.external.MessageProvider;
 
 

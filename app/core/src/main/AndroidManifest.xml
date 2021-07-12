@@ -4,6 +4,7 @@
     package="com.fsck.k9.core">
 
     <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
 
     <application>
         <provider

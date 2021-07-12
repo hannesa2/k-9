@@ -3,20 +3,20 @@
   <!--=== App-specific strings =============================================================-->
   <!--This should make it easier for forks to change the branding-->
   <!--Used in AndroidManifest.xml-->
-  <string name="app_name">K-9 - Póstur</string>
-  <string name="shortcuts_title">K-9 - Aðgangar</string>
-  <string name="unread_widget_label">K-9 - Ólesið</string>
+  <string name="app_name">L-10 - Póstur</string>
+  <string name="shortcuts_title">L-10 - Aðgangar</string>
+  <string name="unread_widget_label">L-10 - Ólesið</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">K-9 hundatemjararnir</string>
-  <string name="app_copyright_fmt">Höfundarréttur 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Höfundarréttur að hluta 2006-<xliff:g>%s</xliff:g> til Android Open Source verkefnisins.</string>
+  <string name="app_authors">L-10 hundatemjararnir</string>
+  <string name="app_copyright_fmt">Höfundarréttur 2008-<xliff:g>%s</xliff:g> The L-10 Dog Walkers. Höfundarréttur að hluta 2006-<xliff:g>%s</xliff:g> til Android Open Source verkefnisins.</string>
   <string name="app_license">Apache notkunarleyfi, útgáfa 2.0</string>
   <string name="about_libraries">Aðgerðasöfn</string>
   <string name="license">Notkunarleyfi</string>
   <!--Welcome message-->
-  <string name="welcome_message_title">Velkomin í K-9 póstinn</string>
+  <string name="welcome_message_title">Velkomin í L-10 póstinn</string>
   <string name="accounts_welcome"><![CDATA[
 <p>
-K-9 Mail er öflugt, frjálst tölvupóstforrit fyrir Android.
+L-10 Mail er öflugt, frjálst tölvupóstforrit fyrir Android.
 </p><p>
 Meðal bættra eiginleika þess eru:
 </p>
@@ -37,16 +37,16 @@ Meðal bættra eiginleika þess eru:
   <li>…og margt fleira</li>
 </ul>
 <p>
-Taktu eftir því að K-9 gengur ekki með flestum Hotmail aðgöngum og, rétt eins og mörg önnur tölvupóstforrit, á í nokkrum erfiðleikum með að hafa samskipti við Microsoft Exchange.
+Taktu eftir því að L-10 gengur ekki með flestum Hotmail aðgöngum og, rétt eins og mörg önnur tölvupóstforrit, á í nokkrum erfiðleikum með að hafa samskipti við Microsoft Exchange.
 </p><p>
 Sendu inn villuskýrslur, leggðu fram nýja eiginleika og spurðu spurninga á
 <a href="https://github.com/k9mail/k-9/">https://github.com/k9mail/k-9/</a>.
 </p>
     ]]></string>
   <!--Default signature-->
-  <string name="default_signature">-- \nSent úr Android tækinu mínu með K-9 póstforritinu. Afsakaðu hvað ég stytti mál mitt mikið.</string>
+  <string name="default_signature">-- \nSent úr Android tækinu mínu með L-10 póstforritinu. Afsakaðu hvað ég stytti mál mitt mikið.</string>
   <!--General strings that include the app name-->
-  <string name="account_delete_dlg_instructions_fmt">Aðgangurinn \"<xliff:g id="account">%s</xliff:g>\" verður fjarlægður úr K-9 póstinum.</string>
+  <string name="account_delete_dlg_instructions_fmt">Aðgangurinn \"<xliff:g id="account">%s</xliff:g>\" verður fjarlægður úr L-10 póstinum.</string>
   <!--=== General strings ==================================================================-->
   <string name="authors">Höfundar</string>
   <string name="app_revision">Útgáfuupplýsingar</string>
@@ -54,7 +54,7 @@ Sendu inn villuskýrslur, leggðu fram nýja eiginleika og spurðu spurninga á
   <string name="read_messages_desc">Leyfa þessu forriti að lesa tölvupóstana mína.</string>
   <string name="delete_messages_label">Eyða tölvupóstum</string>
   <string name="delete_messages_desc">Leyfa þessu forriti að eyða tölvupóstum.</string>
-  <string name="about_title">Um K-9 póstinn</string>
+  <string name="about_title">Um L-10 póstinn</string>
   <string name="accounts_title">Aðgangar</string>
   <string name="folders_title">Möppur</string>
   <string name="advanced">Ítarlegt</string>
@@ -255,7 +255,7 @@ Sendu inn villuskýrslur, leggðu fram nýja eiginleika og spurðu spurninga á
   <string name="global_settings_confirm_menu_mark_all_read">Merkja öll skilaboð sem lesin</string>
   <string name="global_settings_confirm_action_delete_notif">Eyða (úr tilkynningu)</string>
   <string name="global_settings_privacy_hide_useragent">Fela póstforrit</string>
-  <string name="global_settings_privacy_hide_useragent_detail">Fjarlægja kennistreng K-9 úr pósthausum</string>
+  <string name="global_settings_privacy_hide_useragent_detail">Fjarlægja kennistreng L-10 úr pósthausum</string>
   <string name="global_settings_privacy_hide_timezone">Fela tímabelti</string>
   <string name="global_settings_privacy_hide_timezone_detail">Nota UTC sem staðvært tímabelti í pósthausum og svarhausum</string>
   <string name="global_settings_notification_hide_subject_title">Fela viðfangsefni í tilkynningum</string>
@@ -967,7 +967,7 @@ Sendu inn villuskýrslur, leggðu fram nýja eiginleika og spurðu spurninga á
   <string name="unsigned_text_divider_label">Óundirritaður texti</string>
   <string name="apg_deprecated_title">Aðvörun vegna úreldingar APG</string>
   <string name="apg_deprecated_1">APG er ekki lengur viðhaldið!</string>
-  <string name="apg_deprecated_2">Vegna þessa hefur stuðningur við APG verið fjarlægður úr K-9 póstforritinu.</string>
+  <string name="apg_deprecated_2">Vegna þessa hefur stuðningur við APG verið fjarlægður úr L-10 póstforritinu.</string>
   <string name="apg_deprecated_bullet_1">Þróun þess hætti snemma á árinu 2014</string>
   <string name="apg_deprecated_bullet_2">Inniheldur óleyst öryggisvandamál</string>
   <string name="apg_learn_more">Þú getur <a href="https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html">smellt hér</a> til að fræðast betur um þetta.</string>
@@ -976,7 +976,7 @@ Sendu inn villuskýrslur, leggðu fram nýja eiginleika og spurðu spurninga á
   <string name="crypto_no_provider_title">Þessi tölvupóstur er dulritaður</string>
   <string name="crypto_no_provider_message">Þessi tölvupóstur var dulritaður með OpenPGP.\nTil að lesa hann verður þú að setja upp og stilla samhæft OpenPGP-forrit.</string>
   <string name="crypto_no_provider_button">Fara í stillingar</string>
-  <string name="mail_list_widget_text">Skilaboðalisti K-9</string>
+  <string name="mail_list_widget_text">Skilaboðalisti L-10</string>
   <string name="mail_list_widget_loading">Hleður skilaboð…</string>
   <string name="fetching_folders_failed">Mistókst að sækja möppulista</string>
   <string name="error_recipient_crypto_retrieve">Villa við að fá stöðu viðtakanda frá OpenPGP-veitu!</string>
@@ -999,7 +999,7 @@ Sendu inn villuskýrslur, leggðu fram nýja eiginleika og spurðu spurninga á
   <string name="general_settings_title">Almennar stillingar</string>
   <string name="dialog_openkeychain_info_title">Ekkert OpenPGP-forrit er uppsett</string>
   <string name="dialog_openkeychain_info_install">Setja upp</string>
-  <string name="dialog_openkeychain_info_text">K-9 póstur krefs OpenKeychain fyrir enda-í-enda dulritun.</string>
+  <string name="dialog_openkeychain_info_text">L-10 póstur krefs OpenKeychain fyrir enda-í-enda dulritun.</string>
   <string name="encrypted_subject">Dulrituð skilaboð</string>
   <string name="account_settings_crypto_encrypt_subject">Dulrita viðfangsefni skilaboða</string>
   <string name="account_settings_crypto_encrypt_subject_subtitle">Er hugsanlega ekki stutt hjá sumum viðtakendum</string>

@@ -36,7 +36,7 @@ import android.os.Bundle;
 import android.provider.BaseColumns;
 
 import com.fsck.k9.Account;
-import com.fsck.k9.BuildConfig;
+import com.fsck.l10.BuildConfig;
 import com.fsck.k9.DI;
 import com.fsck.k9.Preferences;
 import com.fsck.k9.controller.MessageReference;
@@ -165,7 +165,7 @@ public class MessageProvider extends ContentProvider {
 
         if (myAccount != null) {
             MessageReference messageReference = new MessageReference(myAccount.getUuid(), folderId, msgUid, null);
-            MessagingController controller = MessagingController.getInstance(getContext());
+            MessagingController controller = MessagingController.getInstance();
             controller.deleteMessage(messageReference);
         }
 
@@ -486,7 +486,7 @@ public class MessageProvider extends ContentProvider {
 
             // new code for integrated inbox, only execute this once as it will be processed afterwards via the listener
             SearchAccount integratedInboxAccount = SearchAccount.createUnifiedInboxAccount();
-            MessagingController msgController = MessagingController.getInstance(getContext());
+            MessagingController msgController = MessagingController.getInstance();
 
             msgController.searchLocalMessages(integratedInboxAccount.getRelatedSearch(),
                     new MessageInfoHolderRetrieverListener(queue));
@@ -660,7 +660,7 @@ public class MessageProvider extends ContentProvider {
             Object[] values = new Object[2];
 
             Context context = getContext();
-            MessagingController controller = MessagingController.getInstance(context);
+            MessagingController controller = MessagingController.getInstance();
             Collection<Account> accounts = Preferences.getPreferences(context).getAvailableAccounts();
 
             for (Account account : accounts) {

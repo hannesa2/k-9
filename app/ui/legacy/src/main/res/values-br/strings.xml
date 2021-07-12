@@ -3,20 +3,20 @@
   <!--=== App-specific strings =============================================================-->
   <!--This should make it easier for forks to change the branding-->
   <!--Used in AndroidManifest.xml-->
-  <string name="app_name">K-9 Mail</string>
-  <string name="shortcuts_title">K-9 Kontoù</string>
-  <string name="unread_widget_label">K-9 Anlennet</string>
+  <string name="app_name">L-10 Mail</string>
+  <string name="shortcuts_title">L-10 Kontoù</string>
+  <string name="unread_widget_label">L-10 Anlennet</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">Diorroerien K-9</string>
-  <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> Ar valeerien K-9 Dog. Lodennoù Copyright 2006-<xliff:g>%s</xliff:g> and Android Open Source Project.</string>
+  <string name="app_authors">Diorroerien L-10</string>
+  <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> Ar valeerien L-10 Dog. Lodennoù Copyright 2006-<xliff:g>%s</xliff:g> and Android Open Source Project.</string>
   <string name="app_license">Lañvaz Apache, Handelv 2.0</string>
   <string name="about_libraries">Levraouegoù</string>
   <string name="license">Lañvaz</string>
   <!--Welcome message-->
-  <string name="welcome_message_title">Donemat war K-9 Mail</string>
+  <string name="welcome_message_title">Donemat war L-10 Mail</string>
   <string name="accounts_welcome"><![CDATA[
 <p>
-K-9 Mail a zo un arval posteloù digoust galloudus evit Android
+L-10 Mail a zo un arval posteloù digoust galloudus evit Android
 </p><p>
 Kavet e vez e-touez e geweriusterioù:
 </p>
@@ -44,9 +44,9 @@ Danevellit beugoù, kenlabourit war keweriusterioù nevez ha savit goulennoù wa
 </p>
     ]]></string>
   <!--Default signature-->
-  <string name="default_signature">-- \nKaset eus ma fellgomzer Android gant K-9 Mail.</string>
+  <string name="default_signature">-- \nKaset eus ma fellgomzer Android gant L-10 Mail.</string>
   <!--General strings that include the app name-->
-  <string name="account_delete_dlg_instructions_fmt">Dilamet e vo ar gont \"<xliff:g id="account">%s</xliff:g>\" eus K-9 Mail.</string>
+  <string name="account_delete_dlg_instructions_fmt">Dilamet e vo ar gont \"<xliff:g id="account">%s</xliff:g>\" eus L-10 Mail.</string>
   <!--=== General strings ==================================================================-->
   <string name="authors">Aozerien</string>
   <string name="app_revision">Titouroù an azgweladur</string>
@@ -54,7 +54,7 @@ Danevellit beugoù, kenlabourit war keweriusterioù nevez ha savit goulennoù wa
   <string name="read_messages_desc">Aotren an arload-mañ da lenn ho posteloù.</string>
   <string name="delete_messages_label">Dilemel posteloù</string>
   <string name="delete_messages_desc">Aotren an arload-mañ da lenn ho posteloù.</string>
-  <string name="about_title">A-zivout K-9 Mail</string>
+  <string name="about_title">A-zivout L-10 Mail</string>
   <string name="accounts_title">Kontoù</string>
   <string name="folders_title">Teuliadoù</string>
   <string name="advanced">Kemplezhoc’h</string>
@@ -254,7 +254,7 @@ Danevellit beugoù, kenlabourit war keweriusterioù nevez ha savit goulennoù wa
   <string name="global_settings_confirm_menu_mark_all_read">Merkañ an holl gemennadennoù evel lennet</string>
   <string name="global_settings_confirm_action_delete_notif">Dilemel (er rebuziñ)</string>
   <string name="global_settings_privacy_hide_useragent">Kuzhat an arval postel</string>
-  <string name="global_settings_privacy_hide_useragent_detail">Dilemel User-agent K-9 eus talbennoù ar postel</string>
+  <string name="global_settings_privacy_hide_useragent_detail">Dilemel User-agent L-10 eus talbennoù ar postel</string>
   <string name="global_settings_privacy_hide_timezone">Kuzhat ar gwerzhid-eur</string>
   <string name="global_settings_privacy_hide_timezone_detail">Arverañ UTC e plas ar gwerzhid-eur lec’hel e talbennoù ar postel hag ar respont</string>
   <string name="global_settings_notification_hide_subject_title">Kuzhat an danvez er rebuziñ</string>
@@ -936,7 +936,7 @@ Danevellit beugoù, kenlabourit war keweriusterioù nevez ha savit goulennoù wa
   <string name="unsigned_text_divider_label">Testenn ansinet</string>
   <string name="apg_deprecated_title">Gouzav diamzeradur APG</string>
   <string name="apg_deprecated_1">N’eo ket trezalc’het APG ken!</string>
-  <string name="apg_deprecated_2">Dre se n’eo ket skoret APG gant K-9 Mail.</string>
+  <string name="apg_deprecated_2">Dre se n’eo ket skoret APG gant L-10 Mail.</string>
   <string name="apg_deprecated_bullet_1">Harzhet eo bet an diorren e deroù 2014</string>
   <string name="apg_deprecated_bullet_2">Enderc’hel a ra kudennoù diogelroez</string>
   <string name="apg_learn_more">Gallout a rit <a href="https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html">klikañ amañ</a>evit gouzout hiroc’h.</string>
@@ -945,7 +945,7 @@ Danevellit beugoù, kenlabourit war keweriusterioù nevez ha savit goulennoù wa
   <string name="crypto_no_provider_title">N’eo ket enrineget ar postel-mañ</string>
   <string name="crypto_no_provider_message">Enrineget eo bet ar postel-mañ gant OpenPGP.\nEvit gallout e lenn e rankit staliañ ha kefluniañ un arload OpenPGP keverlec’h.</string>
   <string name="crypto_no_provider_button">Mont d\'an arventennoù</string>
-  <string name="mail_list_widget_text">Roll kemennadennoù K-9</string>
+  <string name="mail_list_widget_text">Roll kemennadennoù L-10</string>
   <string name="mail_list_widget_loading">O kargañ kemennadennoù...</string>
   <string name="fetching_folders_failed">C’hwitadenn en ur gerc’hat roll an teuliadoù</string>
   <string name="error_recipient_crypto_retrieve">Fazi en ur adkavout statud an degemerer digant ar pourchaser OpenPGP!</string>
@@ -968,7 +968,7 @@ Danevellit beugoù, kenlabourit war keweriusterioù nevez ha savit goulennoù wa
   <string name="general_settings_title">Arventennoù hollek</string>
   <string name="dialog_openkeychain_info_title">Arload OpenPGP staliet ebet</string>
   <string name="dialog_openkeychain_info_install">Staliañ</string>
-  <string name="dialog_openkeychain_info_text">K-9 Mail a azgoulenn OpenKeychain evit an enrinegañ penn-ouzh-penn.</string>
+  <string name="dialog_openkeychain_info_text">L-10 Mail a azgoulenn OpenKeychain evit an enrinegañ penn-ouzh-penn.</string>
   <string name="encrypted_subject">Kemennadenn enrineget</string>
   <string name="account_settings_crypto_encrypt_subject">Enrinegañ danvez ar c\'hemennadennoù</string>
   <string name="account_settings_crypto_encrypt_subject_subtitle">Gallout a ra bezañ anskor evit degemererien \'zo</string>

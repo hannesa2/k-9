@@ -3,12 +3,12 @@
   <!--=== App-specific strings =============================================================-->
   <!--This should make it easier for forks to change the branding-->
   <!--Used in AndroidManifest.xml-->
-  <string name="app_name">K-9 Retpoŝtilo</string>
-  <string name="shortcuts_title">K-9 kontoj</string>
-  <string name="unread_widget_label">K-9 nelegitaj mesaĝoj</string>
+  <string name="app_name">L-10 Retpoŝtilo</string>
+  <string name="shortcuts_title">L-10 kontoj</string>
+  <string name="unread_widget_label">L-10 nelegitaj mesaĝoj</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">The K-9 Dog Walkers</string>
-  <string name="app_copyright_fmt">Kopirajto 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Parta kopirajto 2006-<xliff:g>%s</xliff:g> la Malfermkoda Projekto Android (AOSP).</string>
+  <string name="app_authors">The L-10 Dog Walkers</string>
+  <string name="app_copyright_fmt">Kopirajto 2008-<xliff:g>%s</xliff:g> The L-10 Dog Walkers. Parta kopirajto 2006-<xliff:g>%s</xliff:g> la Malfermkoda Projekto Android (AOSP).</string>
   <string name="source_code">Fontkodo</string>
   <string name="app_license">Apache License, versio 2.0</string>
   <string name="about_project_title">Malfermkoda projekto</string>
@@ -22,10 +22,10 @@
   <string name="changelog_loading_error">Ne povas enlegi la ŝanĝoprotokolon.</string>
   <string name="changelog_version_title">Versio %s</string>
   <!--Welcome message-->
-  <string name="welcome_message_title">Bonvenon al K-9 Retpoŝtilo</string>
+  <string name="welcome_message_title">Bonvenon al L-10 Retpoŝtilo</string>
   <string name="accounts_welcome"><![CDATA[
 <p>
-K-9 Retpoŝtilo estas potenca libera retpoŝtilo por Android.
+L-10 Retpoŝtilo estas potenca libera retpoŝtilo por Android.
 </p><p>
 Jen kelkaj distingaj ebloj de ĝi:
 </p>
@@ -46,15 +46,15 @@ Jen kelkaj distingaj ebloj de ĝi:
 <li>…kaj pli</li>
 </ul>
 <p>
-Bonvolu rimarki, ke K-9 Retpoŝtilo ne subtenas plejparton da senpagaj Hotmail-kontoj kaj simile al aliaj retpoŝtiloj, ĝi povas esti kapricema dum komunikado kun Microsoft Exchange.
+Bonvolu rimarki, ke L-10 Retpoŝtilo ne subtenas plejparton da senpagaj Hotmail-kontoj kaj simile al aliaj retpoŝtiloj, ĝi povas esti kapricema dum komunikado kun Microsoft Exchange.
 </p><p>
 Bonvolu raporti erarojn, kontribui novajn eblojn kaj peti pri novaj funkcioj per nia retpaĝo <a href="https://github.com/k9mail/k-9/">https://github.com/k9mail/k-9/</a>.
 </p>
 ]]></string>
   <!--Default signature-->
-  <string name="default_signature">-- \nSendita per K-9 Retpoŝtilo. Bonvolu pardoni min por skribi mallonge.</string>
+  <string name="default_signature">-- \nSendita per L-10 Retpoŝtilo. Bonvolu pardoni min por skribi mallonge.</string>
   <!--General strings that include the app name-->
-  <string name="account_delete_dlg_instructions_fmt">La konto \"<xliff:g id="account">%s</xliff:g>\" estos forigita el K-9 Retpoŝtilo.</string>
+  <string name="account_delete_dlg_instructions_fmt">La konto \"<xliff:g id="account">%s</xliff:g>\" estos forigita el L-10 Retpoŝtilo.</string>
   <!--=== General strings ==================================================================-->
   <string name="authors">Aŭtoroj</string>
   <string name="app_revision">Kompilaĵo</string>
@@ -62,7 +62,7 @@ Bonvolu raporti erarojn, kontribui novajn eblojn kaj peti pri novaj funkcioj per
   <string name="read_messages_desc">Permesas al tiu ĉi aplikaĵo legi viajn retleterojn.</string>
   <string name="delete_messages_label">Forigi retleterojn</string>
   <string name="delete_messages_desc">Permesas al tiu ĉi aplikaĵo forigi viajn retleterojn.</string>
-  <string name="about_title">Pri K-9 Retpoŝtilo</string>
+  <string name="about_title">Pri L-10 Retpoŝtilo</string>
   <string name="accounts_title">Kontoj</string>
   <string name="folders_title">Mesaĝujoj</string>
   <string name="advanced">Spertaj</string>
@@ -262,7 +262,7 @@ Bonvolu raporti erarojn, kontribui novajn eblojn kaj peti pri novaj funkcioj per
   <string name="global_settings_confirm_menu_mark_all_read">Marki ĉiujn kiel legitajn</string>
   <string name="global_settings_confirm_action_delete_notif">Forigi (el sciigo)</string>
   <string name="global_settings_privacy_hide_useragent">Kaŝi retpoŝtilan nomon</string>
-  <string name="global_settings_privacy_hide_useragent_detail">Forviŝi nomon de klienta aplikaĵo K-9 el mesaĝokapo</string>
+  <string name="global_settings_privacy_hide_useragent_detail">Forviŝi nomon de klienta aplikaĵo L-10 el mesaĝokapo</string>
   <string name="global_settings_privacy_hide_timezone">Kaŝi horzonon</string>
   <string name="global_settings_privacy_hide_timezone_detail">Uzi UTC anstataŭ lokan horzonon en mesaĝokapo kaj respond-kampo</string>
   <string name="global_settings_notification_hide_subject_title">Kaŝi temon en sciigoj</string>
@@ -979,7 +979,7 @@ Bonvolu raporti erarojn, kontribui novajn eblojn kaj peti pri novaj funkcioj per
   <string name="unsigned_text_divider_label">Nesubskribita teksto</string>
   <string name="apg_deprecated_title">Averto: APG evitindas</string>
   <string name="apg_deprecated_1">APG ne estas plu disvolvata!</string>
-  <string name="apg_deprecated_2">Tial subteno por APG estis forigita el K-9 Retpoŝtilo.</string>
+  <string name="apg_deprecated_2">Tial subteno por APG estis forigita el L-10 Retpoŝtilo.</string>
   <string name="apg_deprecated_bullet_1">Disvolvado haltis je komenco de 2014</string>
   <string name="apg_deprecated_bullet_2">Enhavas neriparitajn sekurec-erarojn</string>
   <string name="apg_learn_more">Vi povas <a href="https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html">klaki tie ĉi</a> por sciiĝi pli (en la angla).</string>
@@ -988,7 +988,7 @@ Bonvolu raporti erarojn, kontribui novajn eblojn kaj peti pri novaj funkcioj per
   <string name="crypto_no_provider_title">Tiu ĉi retletero estas ĉifrita</string>
   <string name="crypto_no_provider_message">Tiu ĉi retletero estas ĉifrita per OpenPGP.\nPor legi ĝin, vi devas instali kaj agordi kongruan OpenPGP-aplikaĵon.</string>
   <string name="crypto_no_provider_button">Iri al agordoj</string>
-  <string name="mail_list_widget_text">K-9 mesaĝlisto</string>
+  <string name="mail_list_widget_text">L-10 mesaĝlisto</string>
   <string name="mail_list_widget_loading">Ŝargado de mesaĝoj…</string>
   <string name="fetching_folders_failed">Elŝutado de mesaĝuj-listo malsukcesis</string>
   <string name="error_recipient_crypto_retrieve">Eraro dum legado de ricevonta stato de OpenPGP-liveranto!</string>
@@ -1011,7 +1011,7 @@ Bonvolu raporti erarojn, kontribui novajn eblojn kaj peti pri novaj funkcioj per
   <string name="general_settings_title">Ĝeneralaj agordoj</string>
   <string name="dialog_openkeychain_info_title">Neniu OpenPGP-aplikaĵo instalita</string>
   <string name="dialog_openkeychain_info_install">Instali</string>
-  <string name="dialog_openkeychain_info_text">K-9 Retpoŝtilo postulas OpenKeychain por ĉifri de-fino-al-fino.</string>
+  <string name="dialog_openkeychain_info_text">L-10 Retpoŝtilo postulas OpenKeychain por ĉifri de-fino-al-fino.</string>
   <string name="encrypted_subject">Ĉifrita mesaĝo</string>
   <string name="account_settings_crypto_encrypt_subject">Ĉifri temon de mesaĝo</string>
   <string name="account_settings_crypto_encrypt_subject_subtitle">Povas esti nesubtenata de iuj ricevontoj</string>
@@ -1041,6 +1041,6 @@ Vi povas konservi tiun ĉi mesaĝon kaj uzi ĝin kiel sekurkopion de via privata
   <string name="navigation_drawer_close">Fermi</string>
   <!--permissions-->
   <string name="permission_contacts_rationale_title">Permesu aliron al kontaktoj</string>
-  <string name="permission_contacts_rationale_message">Por ebligi al K-9 sugesti kontaktojn kaj vidigi iliajn nomojn kaj fotojn, la aplikaĵo postulas aliron al viaj kontaktoj.</string>
+  <string name="permission_contacts_rationale_message">Por ebligi al L-10 sugesti kontaktojn kaj vidigi iliajn nomojn kaj fotojn, la aplikaĵo postulas aliron al viaj kontaktoj.</string>
   <string name="generic_loading_error">Eraro okazis dum enlegi datumojn</string>
 </resources>

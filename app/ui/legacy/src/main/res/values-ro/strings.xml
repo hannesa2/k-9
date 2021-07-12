@@ -3,20 +3,20 @@
   <!--=== App-specific strings =============================================================-->
   <!--This should make it easier for forks to change the branding-->
   <!--Used in AndroidManifest.xml-->
-  <string name="app_name">K-9 Mail</string>
-  <string name="shortcuts_title">Conturi K-9</string>
-  <string name="unread_widget_label">K-9 Necitite</string>
+  <string name="app_name">L-10 Mail</string>
+  <string name="shortcuts_title">Conturi L-10</string>
+  <string name="unread_widget_label">L-10 Necitite</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">K-9 Dog Walkers</string>
-  <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Anumite porțiuni Copyright 2006-<xliff:g>%s</xliff:g> Proiectul Android Open Source.</string>
+  <string name="app_authors">L-10 Dog Walkers</string>
+  <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> The L-10 Dog Walkers. Anumite porțiuni Copyright 2006-<xliff:g>%s</xliff:g> Proiectul Android Open Source.</string>
   <string name="app_license">Licență Apache, Versiune 2.0</string>
   <string name="about_libraries">Biblioteci</string>
   <string name="license">Licență</string>
   <!--Welcome message-->
-  <string name="welcome_message_title">Bun venit la K-9 Mail</string>
+  <string name="welcome_message_title">Bun venit la L-10 Mail</string>
   <string name="accounts_welcome"><![CDATA[
 <p>
-K-9 Mail este un client puternic și gratuit de email pentru Android.
+L-10 Mail este un client puternic și gratuit de email pentru Android.
 </p><p>
 Facilitățile sale îmbunătățite includ:
 </p>
@@ -37,16 +37,16 @@ Facilitățile sale îmbunătățite includ:
 <li>…și multe altele</li>
 </ul>
 <p>
-Rețineți, K-9 nu oferă suport pentru mare parte din conturile gratuite de Hotmail și, precum alți clienți de email, poate avea dificultăți cînd se conectează la Microsoft Exchange.
+Rețineți, L-10 nu oferă suport pentru mare parte din conturile gratuite de Hotmail și, precum alți clienți de email, poate avea dificultăți cînd se conectează la Microsoft Exchange.
 </p><p>
 Vă rugăm să ne raportați defecte, să contribuiți cu funcționalități noi sau să puneți întrebări la
 <a href="https://github.com/k9mail/k-9/">https://github.com/k9mail/k-9/</a>.
 </p>
 ]]></string>
   <!--Default signature-->
-  <string name="default_signature">-- \nTrimis de pe dispozitivul meu Android cu K-9 Mail. Rog scuzați mesajul scurt.</string>
+  <string name="default_signature">-- \nTrimis de pe dispozitivul meu Android cu L-10 Mail. Rog scuzați mesajul scurt.</string>
   <!--General strings that include the app name-->
-  <string name="account_delete_dlg_instructions_fmt">Contul \"<xliff:g id="account">%s</xliff:g>\" va fi șters din K-9 Mail.</string>
+  <string name="account_delete_dlg_instructions_fmt">Contul \"<xliff:g id="account">%s</xliff:g>\" va fi șters din L-10 Mail.</string>
   <!--=== General strings ==================================================================-->
   <string name="authors">Autori</string>
   <string name="app_revision">Informații despre revizie</string>
@@ -54,7 +54,7 @@ Vă rugăm să ne raportați defecte, să contribuiți cu funcționalități noi
   <string name="read_messages_desc">Permite acestei aplicații să îți citească emailurile.</string>
   <string name="delete_messages_label">Ștergere emailuri</string>
   <string name="delete_messages_desc">Permite acestei aplicații să îți șteargă emailurile.</string>
-  <string name="about_title">Despre K-9 Mail</string>
+  <string name="about_title">Despre L-10 Mail</string>
   <string name="accounts_title">Conturi</string>
   <string name="folders_title">Dosare</string>
   <string name="advanced">Avansat</string>
@@ -256,7 +256,7 @@ cel mult încă <xliff:g id="messages_to_load">%d</xliff:g></string>
   <string name="global_settings_confirm_menu_mark_all_read">Marchează toate mesajele ca citite</string>
   <string name="global_settings_confirm_action_delete_notif">Șterge (din notificare)</string>
   <string name="global_settings_privacy_hide_useragent">Ascunde clientul de mail</string>
-  <string name="global_settings_privacy_hide_useragent_detail">Elimină K-9 User-Agent din anteturile mesajelor</string>
+  <string name="global_settings_privacy_hide_useragent_detail">Elimină L-10 User-Agent din anteturile mesajelor</string>
   <string name="global_settings_privacy_hide_timezone">Ascunde fusul orar</string>
   <string name="global_settings_privacy_hide_timezone_detail">Folosește UTC în locul fusului orar local în antetul mesajelor și al răspunsurilor</string>
   <string name="global_settings_notification_hide_subject_title">Ascunde subiect în notificări</string>
@@ -975,7 +975,7 @@ Uneori datorită faptului că cineva încearcă să te atace pe tine sau serveru
   <string name="unsigned_text_divider_label">Text nesemnat</string>
   <string name="apg_deprecated_title">Avertisment APG</string>
   <string name="apg_deprecated_1">APG nu mai este întreținut!</string>
-  <string name="apg_deprecated_2">Din această cauză suportul pentru APG a fost eliminat din K-9 Mail.</string>
+  <string name="apg_deprecated_2">Din această cauză suportul pentru APG a fost eliminat din L-10 Mail.</string>
   <string name="apg_deprecated_bullet_1">Dezvoltarea s-a oprit la începutul lui 2014</string>
   <string name="apg_deprecated_bullet_2">Conține probleme de securitate nerezolvate</string>
   <string name="apg_learn_more">Puteți <a href="https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html">apăsa aici</a> pentru mai multe informații.</string>
@@ -984,7 +984,7 @@ Uneori datorită faptului că cineva încearcă să te atace pe tine sau serveru
   <string name="crypto_no_provider_title">Acest mesaj este criptat</string>
   <string name="crypto_no_provider_message">Acest mesaj a fost criptat cu OpenPGP.\nPentru a-l citi trebuie să instalați și să configurați o aplicație OpenPGP compatibilă.</string>
   <string name="crypto_no_provider_button">Mergi la Setări</string>
-  <string name="mail_list_widget_text">Listă mesaje K-9</string>
+  <string name="mail_list_widget_text">Listă mesaje L-10</string>
   <string name="mail_list_widget_loading">Se încarcă mesajele…</string>
   <string name="fetching_folders_failed">Preluarea listei de dosare a eșuat</string>
   <string name="error_recipient_crypto_retrieve">Eroare la extragerea stării destinatarului din serviciul openPGP!</string>
@@ -1007,7 +1007,7 @@ Uneori datorită faptului că cineva încearcă să te atace pe tine sau serveru
   <string name="general_settings_title">Preferințe generale</string>
   <string name="dialog_openkeychain_info_title">Nicio aplicație OpenPGP instalată</string>
   <string name="dialog_openkeychain_info_install">Instalare</string>
-  <string name="dialog_openkeychain_info_text">K-9 Mail necesită OpenKeychain pentru criptarea punct-la-punct</string>
+  <string name="dialog_openkeychain_info_text">L-10 Mail necesită OpenKeychain pentru criptarea punct-la-punct</string>
   <string name="encrypted_subject">Mesaj Criptat</string>
   <string name="account_settings_crypto_encrypt_subject">Criptează subiectele mesajelor</string>
   <string name="account_settings_crypto_encrypt_subject_subtitle">Posibil să nu fie suportat la anumiți destinatari</string>

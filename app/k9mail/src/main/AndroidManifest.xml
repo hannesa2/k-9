@@ -2,7 +2,7 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:installLocation="auto"
-    package="com.fsck.k9">
+    package="com.fsck.l10">
 
     <uses-feature
         android:name="android.hardware.touchscreen"
@@ -74,83 +74,83 @@
         <!-- TODO: Remove after 2020-12-31 -->
         <activity-alias
             android:name=".activity.Accounts"
-            android:targetActivity=".activity.MessageList"
+            android:targetActivity="com.fsck.k9.activity.MessageList"
             android:exported="true" />
 
         <activity
-            android:name=".ui.onboarding.OnboardingActivity"
+            android:name="com.fsck.k9.ui.onboarding.OnboardingActivity"
             android:label="@string/welcome_message_title" />
 
         <activity
-            android:name=".ui.settings.account.OpenPgpAppSelectDialog"
+            android:name="com.fsck.k9.ui.settings.account.OpenPgpAppSelectDialog"
             android:configChanges="locale"
             android:theme="@style/Theme.K9.Dialog.Translucent.DayNight"
             />
 
         <activity
-            android:name=".activity.setup.AccountSetupBasics"
+            android:name="com.fsck.k9.activity.setup.AccountSetupBasics"
             android:configChanges="locale"
             android:label="@string/account_setup_basics_title"/>
 
         <activity
-            android:name=".activity.setup.AccountSetupAccountType"
+            android:name="com.fsck.k9.activity.setup.AccountSetupAccountType"
             android:configChanges="locale"
             android:label="@string/account_setup_account_type_title"/>
 
         <activity
-            android:name=".activity.setup.AccountSetupIncoming"
+            android:name="com.fsck.k9.activity.setup.AccountSetupIncoming"
             android:configChanges="locale"
             android:label="@string/account_setup_incoming_title"/>
 
         <activity
-            android:name=".activity.setup.AccountSetupComposition"
+            android:name="com.fsck.k9.activity.setup.AccountSetupComposition"
             android:configChanges="locale"
             android:label="@string/account_settings_composition_title"/>
 
         <activity
-            android:name=".activity.setup.AccountSetupOutgoing"
+            android:name="com.fsck.k9.activity.setup.AccountSetupOutgoing"
             android:configChanges="locale"
             android:label="@string/account_setup_outgoing_title"/>
 
         <activity
-            android:name=".activity.setup.AccountSetupOptions"
+            android:name="com.fsck.k9.activity.setup.AccountSetupOptions"
             android:configChanges="locale"
             android:label="@string/account_setup_options_title"/>
 
         <activity
-            android:name=".activity.setup.AccountSetupNames"
+            android:name="com.fsck.k9.activity.setup.AccountSetupNames"
             android:configChanges="locale"
             android:label="@string/account_setup_names_title"/>
 
         <activity
-            android:name=".activity.ChooseAccount"
+            android:name="com.fsck.k9.activity.ChooseAccount"
             android:configChanges="locale"
             android:label="@string/choose_account_title"
             android:noHistory="true" />
 
         <activity
-            android:name=".ui.choosefolder.ChooseFolderActivity"
+            android:name="com.fsck.k9.ui.choosefolder.ChooseFolderActivity"
             android:configChanges="locale"
             android:label="@string/choose_folder_title"
             android:noHistory="true" />
 
         <activity
-            android:name=".activity.ChooseIdentity"
+            android:name="com.fsck.k9.activity.ChooseIdentity"
             android:configChanges="locale"
             android:label="@string/choose_identity_title" />
 
         <activity
-            android:name=".activity.ManageIdentities"
+            android:name="com.fsck.k9.activity.ManageIdentities"
             android:configChanges="locale"
             android:label="@string/manage_identities_title"/>
 
         <activity
-            android:name=".activity.EditIdentity"
+            android:name="com.fsck.k9.activity.EditIdentity"
             android:configChanges="locale"
             android:label="@string/edit_identity_title"/>
 
         <activity
-            android:name=".ui.notification.DeleteConfirmationActivity"
+            android:name="com.fsck.k9.ui.notification.DeleteConfirmationActivity"
             android:excludeFromRecents="true"
             android:launchMode="singleTop"
             android:taskAffinity=""
@@ -159,12 +159,12 @@
         <!-- XXX Note: this activity is hacked to ignore config changes,
              since it doesn't currently handle them correctly in code. -->
         <activity
-            android:name=".activity.setup.AccountSetupCheckSettings"
+            android:name="com.fsck.k9.activity.setup.AccountSetupCheckSettings"
             android:configChanges="keyboardHidden|orientation|locale"
             android:label="@string/account_setup_check_settings_title"/>
 
         <activity
-            android:name=".ui.endtoend.AutocryptKeyTransferActivity"
+            android:name="com.fsck.k9.ui.endtoend.AutocryptKeyTransferActivity"
             android:configChanges="locale"
             android:label="@string/ac_transfer_title"
             />
@@ -173,10 +173,10 @@
         <!-- TODO: Remove after 2020-12-31 -->
         <activity-alias
             android:name=".activity.FolderList"
-            android:targetActivity=".activity.MessageList"
+            android:targetActivity="com.fsck.k9.activity.MessageList"
             android:exported="true" />
 
-        <activity android:name=".activity.MessageList">
+        <activity android:name="com.fsck.k9.activity.MessageList">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -198,7 +198,7 @@
         </activity>
 
         <activity
-            android:name=".activity.MessageCompose"
+            android:name="com.fsck.k9.activity.MessageCompose"
             android:configChanges="locale"
             android:enabled="false"
             android:label="@string/app_name">
@@ -236,7 +236,7 @@
 
         <!-- Search Activity - searchable -->
         <activity
-            android:name=".activity.Search"
+            android:name="com.fsck.k9.activity.Search"
             android:configChanges="locale"
             android:label="@string/search_action"
             android:uiOptions="splitActionBarWhenNarrow">
@@ -250,7 +250,7 @@
         </activity>
 
         <activity
-            android:name=".activity.LauncherShortcuts"
+            android:name="com.fsck.k9.activity.LauncherShortcuts"
             android:configChanges="locale"
             android:label="@string/shortcuts_title">
             <intent-filter>
@@ -259,38 +259,38 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".widget.unread.UnreadWidgetConfigurationActivity">
+        <activity android:name="com.fsck.k9.widget.unread.UnreadWidgetConfigurationActivity">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
             </intent-filter>
         </activity>
 
         <activity
-            android:name=".activity.UpgradeDatabases"
+            android:name="com.fsck.k9.activity.UpgradeDatabases"
             android:label="@string/upgrade_databases_title"/>
 
         <activity
-            android:name=".ui.managefolders.ManageFoldersActivity"
+            android:name="com.fsck.k9.ui.managefolders.ManageFoldersActivity"
             android:label="@string/folders_action" />
 
         <activity
-            android:name=".ui.settings.SettingsActivity"
+            android:name="com.fsck.k9.ui.settings.SettingsActivity"
             android:label="@string/prefs_title" />
 
         <activity
-            android:name=".ui.settings.general.GeneralSettingsActivity"
+            android:name="com.fsck.k9.ui.settings.general.GeneralSettingsActivity"
             android:label="@string/general_settings_title" />
 
         <activity
-            android:name=".ui.settings.account.AccountSettingsActivity"
+            android:name="com.fsck.k9.ui.settings.account.AccountSettingsActivity"
             android:label="@string/account_settings_title_fmt" />
 
         <activity
-            android:name=".ui.messagesource.MessageSourceActivity"
+            android:name="com.fsck.k9.ui.messagesource.MessageSourceActivity"
             android:label="@string/show_headers_action" />
 
         <receiver
-            android:name=".service.StorageReceiver"
+            android:name="com.fsck.k9.service.StorageReceiver"
             android:enabled="true">
             <intent-filter>
                 <!--
@@ -314,7 +314,7 @@
         </receiver>
 
         <receiver
-            android:name=".provider.UnreadWidgetProvider"
+            android:name="com.fsck.k9.provider.UnreadWidgetProvider"
             android:icon="@drawable/ic_launcher"
             android:label="@string/unread_widget_label">
             <intent-filter>
@@ -326,7 +326,7 @@
         </receiver>
 
         <receiver
-            android:name=".widget.list.MessageListWidgetProvider"
+            android:name="com.fsck.k9.widget.list.MessageListWidgetProvider"
             android:icon="@drawable/message_list_widget_preview"
             android:label="@string/mail_list_widget_text">
             <intent-filter>
@@ -338,16 +338,16 @@
         </receiver>
 
         <service
-            android:name=".widget.list.MessageListWidgetService"
+            android:name="com.fsck.k9.widget.list.MessageListWidgetService"
             android:enabled="true"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
 
         <service
-            android:name=".notification.NotificationActionService"
+            android:name="com.fsck.k9.notification.NotificationActionService"
             android:enabled="true"/>
 
         <service
-            android:name=".service.DatabaseUpgradeService"
+            android:name="com.fsck.k9.service.DatabaseUpgradeService"
             android:exported="false"/>
 
 
@@ -364,7 +364,7 @@
             android:permission="android.permission.BIND_JOB_SERVICE"/>
 
         <provider
-            android:name=".provider.AttachmentProvider"
+            android:name="com.fsck.k9.provider.AttachmentProvider"
             android:authorities="${applicationId}.attachmentprovider"
             android:exported="false"
             android:grantUriPermissions="true">
@@ -376,7 +376,7 @@
         </provider>
 
         <provider
-            android:name=".provider.RawMessageProvider"
+            android:name="com.fsck.k9.provider.RawMessageProvider"
             android:authorities="${applicationId}.rawmessageprovider"
             android:exported="false">
 
@@ -387,7 +387,7 @@
         </provider>
 
         <provider
-            android:name=".external.MessageProvider"
+            android:name="com.fsck.k9.external.MessageProvider"
             android:authorities="${applicationId}.messageprovider"
             android:exported="true"
             android:grantUriPermissions="true"
@@ -396,12 +396,12 @@
             android:writePermission="${applicationId}.permission.DELETE_MESSAGES"/>
 
         <provider
-            android:name=".provider.EmailProvider"
+            android:name="com.fsck.k9.provider.EmailProvider"
             android:authorities="${applicationId}.provider.email"
             android:exported="false"/>
 
         <provider
-            android:name=".provider.DecryptedFileProvider"
+            android:name="com.fsck.k9.provider.DecryptedFileProvider"
             android:authorities="${applicationId}.decryptedfileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
@@ -412,7 +412,7 @@
         </provider>
 
         <provider
-            android:name=".provider.AttachmentTempFileProvider"
+            android:name="com.fsck.k9.provider.AttachmentTempFileProvider"
             android:authorities="${applicationId}.tempfileprovider"
             android:exported="false"
             android:grantUriPermissions="true">

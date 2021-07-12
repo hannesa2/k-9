@@ -1,2 +1,3 @@
 [*.{kt,kts}]
 kotlin_imports_layout = *,^*
+disabled_rules=import-ordering,parameter-list-wrapping,indent

@@ -137,7 +137,7 @@ public class MessageViewFragment extends Fragment implements ConfirmationDialogF
         setHasOptionsMenu(true);
 
         Context context = getActivity().getApplicationContext();
-        mController = MessagingController.getInstance(context);
+        mController = MessagingController.getInstance();
         messageCryptoPresenter = new MessageCryptoPresenter(messageCryptoMvpView);
         messageLoaderHelper = messageLoaderHelperFactory.createForMessageView(
                 context, getLoaderManager(), getParentFragmentManager(), messageLoaderCallbacks);

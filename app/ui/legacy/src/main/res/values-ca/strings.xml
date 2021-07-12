@@ -3,12 +3,12 @@
   <!--=== App-specific strings =============================================================-->
   <!--This should make it easier for forks to change the branding-->
   <!--Used in AndroidManifest.xml-->
-  <string name="app_name">K-9 Mail</string>
-  <string name="shortcuts_title">Comptes del K-9</string>
-  <string name="unread_widget_label">K-9 no llegits</string>
+  <string name="app_name">L-10 Mail</string>
+  <string name="shortcuts_title">Comptes del L-10</string>
+  <string name="unread_widget_label">L-10 no llegits</string>
   <!--Used in the about dialog-->
-  <string name="app_authors">Els passejadors de gossos K-9</string>
-  <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> The K-9 Dog Walkers. Porcions de Copyright 2006-<xliff:g>%s</xliff:g> Projecte de codi obert d\'Android.</string>
+  <string name="app_authors">Els passejadors de gossos L-10</string>
+  <string name="app_copyright_fmt">Copyright 2008-<xliff:g>%s</xliff:g> The L-10 Dog Walkers. Porcions de Copyright 2006-<xliff:g>%s</xliff:g> Projecte de codi obert d\'Android.</string>
   <string name="source_code">Codi font</string>
   <string name="app_license">Llicència d\'Apache, versió 2.0</string>
   <string name="about_project_title">Projecte de codi obert</string>
@@ -22,10 +22,10 @@
   <string name="changelog_loading_error">No s\'ha pogut carregar el registre de canvis.</string>
   <string name="changelog_version_title">Versió %s</string>
   <!--Welcome message-->
-  <string name="welcome_message_title">Us donem la benvinguda al K-9 Mail</string>
+  <string name="welcome_message_title">Us donem la benvinguda al L-10 Mail</string>
   <string name="accounts_welcome"><![CDATA[
 <p>
-El K-9 Mail és un potent client de correu de codi lliure per a Android.
+El L-10 Mail és un potent client de correu de codi lliure per a Android.
 </p><p>
 Les característiques més destacables són les següents:
 </p>
@@ -46,16 +46,16 @@ Les característiques més destacables són les següents:
 <li>… i molt més</li>
 </ul>
 <p>
-Si us plau, tingueu en compte que el K-9 no admet la majoria de comptes gratuïts de Hotmail i que, com la majoria d\'altres clients de correu, té alguns problemes per interactuar amb el Microsoft Exchange.
+Si us plau, tingueu en compte que el L-10 no admet la majoria de comptes gratuïts de Hotmail i que, com la majoria d\'altres clients de correu, té alguns problemes per interactuar amb el Microsoft Exchange.
 </p><p>
 Si us plau, envieu informes d\'errors, contribuïu-hi amb noves millores i feu preguntes a
 <a href="https://github.com/k9mail/k-9/">https://github.com/k9mail/k-9/</a>.
 </p>
 ]]></string>
   <!--Default signature-->
-  <string name="default_signature">-- \nEnviat des del meu dispositiu Android amb el K-9 Mail. Disculpeu la brevetat.</string>
+  <string name="default_signature">-- \nEnviat des del meu dispositiu Android amb el L-10 Mail. Disculpeu la brevetat.</string>
   <!--General strings that include the app name-->
-  <string name="account_delete_dlg_instructions_fmt">El compte \"<xliff:g id="account">%s</xliff:g>\" s\'eliminarà del K-9 Mail.</string>
+  <string name="account_delete_dlg_instructions_fmt">El compte \"<xliff:g id="account">%s</xliff:g>\" s\'eliminarà del L-10 Mail.</string>
   <!--=== General strings ==================================================================-->
   <string name="authors">Autors</string>
   <string name="app_revision">Informació de la revisió</string>
@@ -63,7 +63,7 @@ Si us plau, envieu informes d\'errors, contribuïu-hi amb noves millores i feu p
   <string name="read_messages_desc">Permet a aquesta aplicació llegir els correus.</string>
   <string name="delete_messages_label">Elimina correus</string>
   <string name="delete_messages_desc">Permet que aquesta aplicació elimini correus.</string>
-  <string name="about_title">Quant al K-9 Mail</string>
+  <string name="about_title">Quant al L-10 Mail</string>
   <string name="accounts_title">Comptes</string>
   <string name="folders_title">Carpetes</string>
   <string name="advanced">Avançat</string>
@@ -264,7 +264,7 @@ Si us plau, envieu informes d\'errors, contribuïu-hi amb noves millores i feu p
   <string name="global_settings_confirm_menu_mark_all_read">Marca tots els missatges com a llegits</string>
   <string name="global_settings_confirm_action_delete_notif">Elimina (des de notificacions)</string>
   <string name="global_settings_privacy_hide_useragent">Amaga el client de correu</string>
-  <string name="global_settings_privacy_hide_useragent_detail">Suprimeix el nom K-9 User-Agent de les capçaleres del missatge</string>
+  <string name="global_settings_privacy_hide_useragent_detail">Suprimeix el nom L-10 User-Agent de les capçaleres del missatge</string>
   <string name="global_settings_privacy_hide_timezone">Amaga el fus horari</string>
   <string name="global_settings_privacy_hide_timezone_detail">Usa UTC en comptes de l\'hora local a les capçaleres dels missatges i a la capçalera de resposta</string>
   <string name="global_settings_notification_hide_subject_title">Amaga l\'assumpte a les notificacions</string>
@@ -981,7 +981,7 @@ Si us plau, envieu informes d\'errors, contribuïu-hi amb noves millores i feu p
   <string name="unsigned_text_divider_label">Text no signat</string>
   <string name="apg_deprecated_title">Avís d\'obsolescència d\'APG</string>
   <string name="apg_deprecated_1">APG ja no es manté!</string>
-  <string name="apg_deprecated_2">A causa d\'això, el suport d\'APG s\'ha eliminat del K-9 Mail.</string>
+  <string name="apg_deprecated_2">A causa d\'això, el suport d\'APG s\'ha eliminat del L-10 Mail.</string>
   <string name="apg_deprecated_bullet_1">El desenvolupament es va aturar a principis de 2014.</string>
   <string name="apg_deprecated_bullet_2">Conté problemes de seguretat no corregits.</string>
   <string name="apg_learn_more">Podeu clicar <a href="https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html">aquí</a> per saber-ne més.</string>
@@ -990,7 +990,7 @@ Si us plau, envieu informes d\'errors, contribuïu-hi amb noves millores i feu p
   <string name="crypto_no_provider_title">Aquest missatge està encriptat.</string>
   <string name="crypto_no_provider_message">Aquest missatge ha estat encriptat amb OpenPGP.\nPer llegir-lo, us caldrà instal·lar i configurar una aplicació d\'OpenPGP compatible.</string>
   <string name="crypto_no_provider_button">Ves a la configuració</string>
-  <string name="mail_list_widget_text">Llista de missatges del K-9</string>
+  <string name="mail_list_widget_text">Llista de missatges del L-10</string>
   <string name="mail_list_widget_loading">Carregant missatges...</string>
   <string name="fetching_folders_failed">Ha fallat recuperar la llista de carpetes.</string>
   <string name="error_recipient_crypto_retrieve">Error en recuperar l\'estat del destinatari del proveïdor d\'OpenPGP!</string>
@@ -1013,7 +1013,7 @@ Si us plau, envieu informes d\'errors, contribuïu-hi amb noves millores i feu p
   <string name="general_settings_title">Configuració general</string>
   <string name="dialog_openkeychain_info_title">No hi ha cap aplicació d\'OpenPGP instal·lada.</string>
   <string name="dialog_openkeychain_info_install">Instal·la</string>
-  <string name="dialog_openkeychain_info_text">El K-9 Mail requereix OpenKeychain per a l\'encriptació d\'extrem a extrem.</string>
+  <string name="dialog_openkeychain_info_text">El L-10 Mail requereix OpenKeychain per a l\'encriptació d\'extrem a extrem.</string>
   <string name="encrypted_subject">Missatge encriptat</string>
   <string name="account_settings_crypto_encrypt_subject">Encripta l\'assumpte dels missatges.</string>
   <string name="account_settings_crypto_encrypt_subject_subtitle">Pot no ser admès per alguns destinataris.</string>
